@@ -485,9 +485,9 @@
                     <div
                       class="service-item d-flex flex-column justify-content-center text-center rounded shadow-md hi"
                     >
-                      <div class="service-icon btn-square">
+                      <div class="service-icon btn-square p-2">
                         <svg
-                          class="fs-1"
+                          class="fs-1 m-1"
                           xmlns="http://www.w3.org/2000/svg"
                           width="1em"
                           height="1em"
@@ -523,9 +523,9 @@
                     <div
                       class="service-item d-flex flex-column justify-content-center text-center rounded hi"
                     >
-                      <div class="service-icon btn-square">
+                      <div class="service-icon btn-square p-2">
                         <svg
-                          class="fs-1"
+                          class="fs-1 m-1"
                           xmlns="http://www.w3.org/2000/svg"
                           width="1.25em"
                           height="1em"
@@ -556,9 +556,9 @@
                     <div
                       class="service-item d-flex flex-column justify-content-center text-center rounded hi"
                     >
-                      <div class="service-icon btn-square">
+                      <div class="service-icon btn-square p-2">
                         <svg
-                          class="fs-1"
+                          class="fs-1 m-1"
                           xmlns="http://www.w3.org/2000/svg "
                           width="1em"
                           height="1em"
@@ -590,9 +590,9 @@
                     <div
                       class="service-item d-flex flex-column justify-content-center text-center rounded hi"
                     >
-                      <div class="service-icon btn-square">
+                      <div class="service-icon btn-square p-2">
                         <svg
-                          class="fs-1"
+                          class="fs-1 m-1"
                           xmlns="http://www.w3.org/2000/svg"
                           width="1em"
                           height="1em"
@@ -1366,7 +1366,7 @@
           الأحداث على الأسواق
         </p>
       </div>
-      <div class="row">
+      <div class="row" style="width: 90%">
         <!-- Card 1 -->
         <div class="col-md-4 col-sm-6">
           <div class="card">
