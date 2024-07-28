@@ -1,0 +1,506 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@300;400;600;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
+
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	width: 100%;
+	height: 100%;
+	scroll-behavior: smooth;
+}
+
+#app {
+	width: 100% !important;
+}
+
+body {
+	font-family: $inter-font, sans-serif;
+	background: $bg-primary;
+  transition: background-color 0.3s;
+	font-size: $default-font-size;
+	font-weight: 400;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.cursor-pointer {
+	cursor: pointer;
+}
+
+// font color
+.text-white {
+	color: $primary-color !important;
+}
+
+.text-secondary {
+	color: $secondary-color !important;
+}
+
+.text-success {
+	color: $green-color !important;
+}
+
+.text-danger {
+	color: $red-color !important;
+}
+
+.text-info {
+	color: $info-color !important;
+}
+
+.text-placeholder {
+	color: $placeholder-color;
+}
+
+.text-rarity {
+	color: $rarity-color;
+}
+
+.text-active {
+	color: $active-color;
+	text-decoration: none;
+
+	&:hover {
+		color: $active-color;
+	}
+}
+
+.text-unread {
+	color: $unread-color;
+}
+
+// form validation error
+.redborder {
+	border: 1px solid #eb794f !important;
+}
+.error {
+	color: #eb794f;
+	display: flex;
+	flex-direction: column;
+}
+
+// form input and input group
+.form-control {
+	border: 1px solid $primary-color;
+	background: transparent;
+	padding: 0.6rem 0.8rem;
+	border-radius: 50px;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 18px;
+	color: $primary-color;
+
+	&::placeholder {
+		color: rgba(210, 209, 209, 0.5);
+		font-weight: 400;
+		font-size: 14px;
+		line-height: 18px;
+	}
+
+	&:focus {
+		// color: rgba(210, 209, 209, 0.5);
+		color: $primary-color;
+		background: transparent;
+		border-color: $primary-color;
+		box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);
+	}
+
+	/* Change the white to any color */
+	&:-webkit-autofill,
+	&:-webkit-autofill:hover,
+	&:-webkit-autofill:focus,
+	&:-webkit-autofill:active{
+		transition: background-color 5000s ease-in-out 0s;
+		-webkit-text-fill-color: $primary-color !important;
+	}
+}
+
+.form-button {
+	background: $button-bg;
+	border: 0;
+	border-radius: 50px;
+	font-weight: 500;
+	font-size: 16px;
+	color: $primary-color !important;
+	padding: 12px 0;
+	width: 100%;
+}
+
+.outline-border {
+	background: $button-bg;
+	border-radius: 50px;
+	padding: 1px 1.2px;
+	width: 100%;
+
+	.outline-btn {
+		background: $sidebar-bg;
+		border: 0;
+		border-radius: 50px;
+		font-weight: 500;
+		font-size: 16px;
+		color: $outline-btn-color;
+		padding: 12px 0;
+		width: 100%;
+
+		&:hover {
+			background: $sidebar-bg;
+			color: #fff;
+		}
+	}
+}
+
+// signup/login and other related page wrapper
+.auth-wrapper {
+	min-height: 100vh;
+
+	.card-wrapper {
+		width: 492px;
+		padding: 2.5rem 3.5rem;
+		background: #1f3241;
+		box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.25);
+		border-radius: 10px;
+
+		.auth-logo {
+			width: 100px;
+			height: auto;
+			text-align: center;
+      object-fit: cover;
+		}
+
+		h1 {
+			font-size: 20px;
+			line-height: 24px;
+		}
+
+		.text-secondary {
+			font-size: 16px;
+
+			@media (max-width: 600px) {
+				font-size: 15px;
+			}
+		}
+
+		.form-input {
+			position: relative;
+
+			.icon {
+				position: absolute;
+				top: calc(30%);
+				right: 1rem;
+			}
+
+			.form-control {
+				padding-right: 2.8rem;
+			}
+
+			.show-icon {
+				position: absolute;
+				top: calc(35%);
+				left: 1rem;
+				cursor: pointer;
+			}
+		}
+
+		label {
+			font-size: 14px;
+		}
+
+		.form-button {
+			margin-top: 2rem;
+
+			@media (max-width: 430px) {
+				padding: 10px 0;
+			}
+
+			@media (max-width: 350px) {
+				padding: 9px 0;
+				font-size: 14px;
+			}
+		}
+
+		.have-account {
+			font-size: 16px;
+			margin-top: 2rem;
+
+			@media (max-width: 499px) {
+				font-size: 15px;
+			}
+		}
+
+		@media (max-width: 600px) {
+			width: 400px;
+			padding: 2.5rem 2.5rem;
+		}
+
+		@media (max-width: 500px) {
+			width: 360px;
+			padding: 2.5rem 2rem;
+		}
+
+		@media (max-width: 430px) {
+			padding: 2.5rem 1.5rem;
+			width: 100%;
+			background: none;
+			box-shadow: none;
+			border-radius: none;
+		}
+
+		@media (max-width: 414px) {
+			padding: 1rem;
+		}
+	}
+}
+
+// otp input
+.otp-input {
+	width: 44px !important;
+	height: 44px !important;
+	border: 2px solid #9badca;
+	border-radius: 5px;
+	text-align: center;
+	margin-left: 5px;
+	margin-right: 5px;
+	font-size: 24px;
+	text-align: center;
+	padding: 0rem 0rem;
+	background: transparent;
+	color: $primary-color !important;
+}
+
+.sidebar-otp-input {
+	width: 36px !important;
+	height: 38px !important;
+	border: 2px solid #9badca;
+	border-radius: 5px;
+	text-align: center;
+	margin-left: 5px;
+	margin-right: 5px;
+	font-size: 18px;
+	text-align: center;
+	padding: 0rem 0rem;
+	background: transparent;
+	color: $primary-color !important;
+}
+
+
+
+.mobile-nav-link.nuxt-link-active,
+.mobile-nav-link.nuxt-link-exact-active {
+	color: #595be0 !important;
+	border-bottom: none;
+	border-radius: 0;
+
+	svg > path {
+		fill: #595be0;
+	}
+}
+
+.nonstakedimg {
+	flex-shrink: 0;
+	-webkit-flex-shrink: 0;
+	width: 100% !important;
+	height: 216px !important;
+	object-fit: cover;
+}
+
+// toast notification
+.v-toast {
+	z-index: 9999999 !important;
+}
+
+// scrolling date time picker
+.vm-dialog-content {
+	width: 400px !important;
+}
+
+// page transition
+.page-enter-active,
+.page-leave-active {
+	transition: opacity 0.3s;
+}
+.page-enter,
+.page-leave-to {
+	opacity: 0;
+}
+
+// layout transition
+.layout-enter-active,
+.layout-leave-active {
+	transition: opacity 0.3s;
+}
+.layout-enter,
+.layout-leave-active {
+	opacity: 0;
+}
+
+// modal open animation
+.open-modal {
+	opacity: 1;
+	-webkit-animation: fadeInDown 0.5s forwards;
+	-moz-animation: fadeInDown 0.5s forwards;
+	animation: fadeInDown 0.5s forwards;
+	-moz-animation-delay: 0.1s;
+	-webkit-animation-delay: 0.1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	animation-delay: 0.1s;
+}
+
+@-webkit-keyframes fadeInDown {
+	0% {
+		opacity: 0;
+		-webkit-transform: translate3d(0, -100%, 0);
+		transform: translate3d(0, -100%, 0);
+	}
+	to {
+		opacity: 1;
+		-webkit-transform: none;
+		transform: none;
+	}
+}
+
+@keyframes fadeInDown {
+	0% {
+		opacity: 0;
+		-webkit-transform: translate3d(0, -100%, 0);
+		transform: translate3d(0, -100%, 0);
+	}
+	to {
+		opacity: 1;
+		-webkit-transform: none;
+		transform: none;
+	}
+}
+
+.vld-overlay.is-full-page {
+	z-index: 9999999 !important;
+}
+
+.hkzEld {
+	z-index: 99999999 !important;
+}
+
+
+
+// Toast customize css
+.v-toast__item{
+	// width: 30%;
+}
+.v-toast__item .v-toast__text {
+	padding: 0.5em 0.5em !important;
+}
+.v-toast__item .v-toast__icon{
+	display: none!important;
+}
+.v-toast__item--success {
+	background-color: #323448 !important;
+	border-radius: 45px !important;
+}
+.v-toast__item--error {
+	background: rgba(253, 13, 0, 0.8)!important;
+	border-radius: 45px!important;
+}
+.t-custom-class{
+	display: flex;
+	flex-direction: row;
+	gap:100px;
+	justify-content: center;
+	align-items: center;
+	div{
+		margin-left: 15px;
+		margin-right: 15px;
+		font-size: 14px;
+	}
+	a{
+		background: #0082FA;
+		border-radius: 20px;
+		font-size: 14px;
+		padding: 10px;
+	}
+}
+
+.rating-color{
+  color: $rating-color;
+  font-size: 18px;
+  @media (max-width: 550px) {
+    font-size: 15px;
+  }
+}
+
+.arrow-down{
+  color: #000;
+  font-size: 16px;
+}
+
+.swiper-wrapper{
+  z-index: 0 !important;
+}
+
+
+.hide {
+  @media (max-width: 1250px) {
+    display: none !important;
+  }
+}
+
+.hide-on-desktop{
+  display: none !important;
+}
+
+.hide-on-380{
+  @media (max-width: 380px) {
+      display: none !important;
+    }
+}
+
+.visible-on-380 {
+  display: none !important;
+  @media (max-width: 380px) {
+    display: block !important;
+  }
+}
+
+.mobile-visible-block {
+  display: none !important;
+
+  @media (max-width: 1250px) {
+    display: block !important;
+  }
+}
+
+.mobile-visible-flex{
+  display: none !important;
+  @media (max-width: 1250px) {
+      display: flex !important;
+    }
+}
+
+img {
+  flex-shrink: 0;
+  -webkit-flex-shrink: 0;
+  max-width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+#vimeo-player-1 {
+  left: 0;
+  top: 0;
+  height: 100% !important;
+  width: 100% !important;
+}

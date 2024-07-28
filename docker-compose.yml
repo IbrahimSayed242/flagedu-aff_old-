@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+    frontend:
+        container_name: flagedu_affiliate
+        restart: unless-stopped
+        image: docker.pkg.github.com/mubarak117136/flagedu-affiliate/flagedu-affiliate:prod
+        command: sh -c "yarn start"
