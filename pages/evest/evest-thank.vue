@@ -478,12 +478,12 @@
             >
           </div>
           <div class="col-lg-7">
-            <div class="row g-4">
+            <div class="row">
               <div class="col-md-6">
-                <div class="row g-4">
-                  <div class="col-12 wow fadeIn" data-wow-delay="0.1s">
+                <div class="row">
+                  <div class="col-12 wow fadeIn m-2" data-wow-delay="0.1s">
                     <div
-                      class="service-item d-flex flex-column justify-content-center text-center rounded shadow-md"
+                      class="service-item d-flex flex-column justify-content-center text-center rounded shadow-md hi"
                     >
                       <div class="service-icon btn-square">
                         <svg
@@ -511,17 +511,17 @@
                       <h5 class="mb-3">اتخاذ القرارات الذكية</h5>
                       <p>
                         بفضل قدرته على استيعاب البيانات وتحليلها، يمكن للذكاء
-                        الاصطناعي توفير توصيات تداول دقيقة بناءً على معلومات
-                        موضوعية وأسس متقدمة.
+                        الاصطناعي توفير توصيات تداول دقيقة.
                       </p>
                       <a class="btn px-3 mt-auto mx-auto" href="#sign-up"
                         >المزيد</a
                       >
                     </div>
                   </div>
-                  <div class="col-12 wow fadeIn" data-wow-delay="0.5s">
+
+                  <div class="col-12 wow fadeIn m-2" data-wow-delay="0.5s">
                     <div
-                      class="service-item d-flex flex-column justify-content-center text-center rounded"
+                      class="service-item d-flex flex-column justify-content-center text-center rounded hi"
                     >
                       <div class="service-icon btn-square">
                         <svg
@@ -549,11 +549,12 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-6 pt-md-4">
-                <div class="row g-4">
-                  <div class="col-12 wow fadeIn" data-wow-delay="0.3s">
+
+              <div class="col-md-6">
+                <div class="row">
+                  <div class="col-12 wow fadeIn m-2" data-wow-delay="0.3s">
                     <div
-                      class="service-item d-flex flex-column justify-content-center text-center rounded"
+                      class="service-item d-flex flex-column justify-content-center text-center rounded hi"
                     >
                       <div class="service-icon btn-square">
                         <svg
@@ -576,17 +577,18 @@
                       <h5 class="mb-3">التعلم الآلي والتحسين المستمر</h5>
                       <p>
                         يمكن للنظم التي تعتمد على الذكاء الاصطناعي أن تتعلم من
-                        تجاربها وتحسن أدائها مع مرور الوقت، مما يجعلها قادرة على
-                        التكيف مع التغيرات في السوق وتحسين النتائج بشكل مستمر.
+                        تجاربها وتحسن أدائها ، مما يجعلها قادرة على التكيف مع
+                        التغيرات في السوق.
                       </p>
                       <a class="btn px-3 mt-auto mx-auto" href="#sign-up">
                         المزيد</a
                       >
                     </div>
                   </div>
-                  <div class="col-12 wow fadeIn" data-wow-delay="0.7s">
+
+                  <div class="col-12 wow fadeIn m-2" data-wow-delay="0.7s">
                     <div
-                      class="service-item d-flex flex-column justify-content-center text-center rounded"
+                      class="service-item d-flex flex-column justify-content-center text-center rounded hi"
                     >
                       <div class="service-icon btn-square">
                         <svg
@@ -606,7 +608,7 @@
                       <p>
                         يمكن للذكاء الاصطناعي معالجة كميات هائلة من البيانات
                         بسرعة ودقة، مما يسمح بتحليل الأنماط والاتجاهات في
-                        الأسواق المالية التي يصعب على الإنسان اكتشافها بمفرده.
+                        الأسواق المالية.
                       </p>
                       <a class="btn px-3 mt-auto mx-auto" href="#sign-up"
                         >المزيد</a
@@ -633,13 +635,16 @@
         alt="flagedu ai affiliate"
       />
 
-      <div class="row p-5 mx-auto">
+      <div class="p-5 mx-auto">
         <h2 class="fs-1 mr-3 text-center">لماذا تنضم لفلاجيدو؟</h2>
         <p class="fs-6 mr-4 mb-5">
           باستثناء رؤى تداول مدعومة بالذكاء الاصطناعي انت تحصل علي:
         </p>
 
-        <div class="d-flex justify-content-center flex-wrap" style="gap: 30px">
+        <div
+          class="row d-flex justify-content-center flex-wrap col-lg-8 mx-auto"
+          style="gap: 30px"
+        >
           <div class="card-x">
             <div class="content">
               <div class="back">
@@ -1505,11 +1510,11 @@
               <h5 class="mb-0">ياسر الربيع</h5>
               <span>مستثمر</span>
               <p>
-                لقداستخدمت برنامج التداول بمساعده فلاجيدو لأكثر من عام الآن وأنا
-                سعيد جدا مع النتائج التي حققتها.وقد ساعد البرنامج لي لأتمتة
-                التداول لدي وتوفير الكثير من الوقت.أنا الآن قادر على قضاء المزيد
-                من الوقت مع عائلتي وأصدقائي في حين لا يزال بامكاني تحقيق ربح
-                جيد.
+                كنت متداول مبتدئ وليست لي خبرة بالاستثمار فقمت بالاستعانة بفريق
+                فلاجيدو و لأكثر من عام وحتى الآن وأنا سعيد جدا مع النتائج التي
+                حققتها.وقد ساعدني أستخدام الذكاء الاصطناعي في التداول على توفير
+                الكثير من الوقت.أنا الآن قادر على قضاء المزيد من الوقت مع عائلتي
+                وأصدقائي في حين لا يزال بامكاني تحقيق ربح جيد.
               </p>
             </div>
 
@@ -1609,9 +1614,10 @@
               <h5 class="mb-0">سها يزن</h5>
               <span>مستثمرة</span>
               <p>
-                أنا متداولة جديد وكنت مترددا في استخدام التداول بالذكاء
-                الاصطناعي في البداية. ولكن أنا سعيد لأنني فعلت! وقد ساعدني هذا
-                كثيرا لتعلم أساسيات التداول ووضع استراتيجيات للربح باقل مجهود .
+                أنا متداولة جديدة وكنت مترددة في استخدام التداول بالذكاء
+                الاصطناعي في البداية. ولكن أنا سعيدة لأنني فعلت! وقد ساعدني
+                فلاجيدو كثيرا في تعلم أساسيات التداول ووضع استراتيجيات للربح
+                باقل مجهود .
               </p>
             </div>
 
@@ -2237,6 +2243,9 @@ export default class Evest2 extends Vue {
 </script>
 
 <style>
+.hi {
+  height: 300px;
+}
 .card {
   max-width: 18rem;
   margin: 20px auto; /* Center the card horizontally and add bottom margin */
