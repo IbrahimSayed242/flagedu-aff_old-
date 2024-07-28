@@ -30,29 +30,24 @@
             class="mx-auto mt-2 mb-5 opacity-50"
           />
 
-          <a class="hero-btn " href="#sign-up">
-          <svg
-            viewBox="0 0 24 24"
-            width="24"
-            height="24"
-            stroke="currentColor"
-            stroke-width="2"
-            fill="none"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="css-i6dzq1"
-          >
-            <polygon
-              points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"
-            ></polygon></svg
-          >سجل الآن مجاناً
-        </a>
+          <a class="hero-btn" href="#sign-up">
+            <svg
+              viewBox="0 0 24 24"
+              width="24"
+              height="24"
+              stroke="currentColor"
+              stroke-width="2"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="css-i6dzq1"
+            >
+              <polygon
+                points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"
+              ></polygon></svg
+            >سجل الآن مجاناً
+          </a>
         </div>
-
-
-
-
-
 
         <div class="icon-boxes position-relative" dir="rtl">
           <div
@@ -60,9 +55,11 @@
           >
             <div
               class="row mx-2 gy-4 d-flex justify-content-center align-items-center py-5"
-              style="  gap: 10px;"
+              style="gap: 10px"
             >
-              <div class="col-xl-3 col-md-4 bg-box   my-auto text-center px-2  py-5">
+              <div
+                class="col-xl-3 col-md-4 bg-box my-auto text-center px-2 py-5"
+              >
                 <div class="icon-box">
                   <div class="icon fs-1">
                     <svg
@@ -100,7 +97,9 @@
               </div>
               <!--End Icon Box -->
 
-              <div class="col-xl-3 col-md-4 bg-box   my-auto text-center px-2  py-5">
+              <div
+                class="col-xl-3 col-md-4 bg-box my-auto text-center px-2 py-5"
+              >
                 <div class="icon-box">
                   <div class="icon fs-1">
                     <svg
@@ -124,7 +123,9 @@
               </div>
               <!--End Icon Box -->
 
-              <div class="col-xl-3 col-md-4 bg-box    my-auto text-center px-2  py-5">
+              <div
+                class="col-xl-3 col-md-4 bg-box my-auto text-center px-2 py-5"
+              >
                 <div class="icon-box">
                   <div class="icon fs-1">
                     <svg
@@ -148,18 +149,16 @@
                     </svg>
                   </div>
                   <h4 class="text-center">
-                    <a href="" class="text-primary "> سرعة التنفيذ </a>
+                    <a href="" class="text-primary"> سرعة التنفيذ </a>
                   </h4>
-                  يعمل الذكاء الاصطناعي على تنفيذ الصفقات التداولية  بسرعة فائقة استنادًا
-                  إلى تحليلاته السريعة للسوق.
+                  يعمل الذكاء الاصطناعي على تنفيذ الصفقات التداولية بسرعة فائقة
+                  استنادًا إلى تحليلاته السريعة للسوق.
                 </div>
               </div>
               <!--End Icon Box -->
             </div>
           </div>
         </div>
-
-  
       </div>
     </section>
 
@@ -168,7 +167,10 @@
     <!--===================================================================================================-->
 
     <!-- Newsletter  Start -->
-    <div class="container-fluid newsletter py-5 mb-3 position-relative" dir="rtl">
+    <div
+      class="container-fluid newsletter md-py-5 mb-3 position-relative"
+      dir="rtl"
+    >
       <img
         style="z-index: -1; width: 99%; float: right; overflow: hidden"
         class="bottom-0 start-0 position-absolute opacity-25"
@@ -183,23 +185,21 @@
           >
             <form
               @submit.prevent="handleFormSubmit"
-              class="form mx-auto my-5 raw py-10 form-bg"
+              class="form mx-auto my-3 raw py-10 form-bg"
               dir="rtl"
             >
-             
-              <div class="flex justify-content-center flex-column"> 
+              <div class="flex justify-content-center flex-column">
                 <h3 class="text-primary text-center fs-1">سجل الآن</h3>
-              <p class="text-center text-white p-0 mb-0 fs-5">
-                جرب الآن! سجل اليوم واستفد من أفضل العروض
-                
-              </p>
-              <img
-                src="https://res.cloudinary.com/dt9k74vof/image/upload/v1716878443/copy/sd_wso2on.gif"
-                alt="flagedu ai affiliate"
-                width="150px"
-                class="mx-auto "
-              />
-            </div>
+                <p class="text-center text-white p-0 mb-0 fs-5">
+                  جرب الآن! سجل اليوم واستفد من أفضل العروض
+                </p>
+                <img
+                  src="https://res.cloudinary.com/dt9k74vof/image/upload/v1716878443/copy/sd_wso2on.gif"
+                  alt="flagedu ai affiliate"
+                  width="150px"
+                  class="mx-auto"
+                />
+              </div>
               <div class="col-lg-12 flex justify-content-center flex-wrap">
                 <label style="width: 100%">
                   <input
@@ -263,7 +263,10 @@
                   <input type="text" class="input" />
                   <span>قسيمة (اختياري)</span>
                 </label>
-<small class="" >نتبع أصرم المعايير بشأن خصوصية البيانات.سنستخدم المعلومات التى تشاركها لتحديد الحلول الاستثمارية الأنسب لك.</small>
+                <small class=""
+                  >نتبع أصرم المعايير بشأن خصوصية البيانات.سنستخدم المعلومات
+                  التى تشاركها لتحديد الحلول الاستثمارية الأنسب لك.</small
+                >
                 <div class="form-input err-msg-container">
                   <div
                     class=""
@@ -274,29 +277,26 @@
                   </div>
                 </div>
               </div>
-              
+
               <button type="submit" class="btn btn-primary px-4 m-2 fs-3">
                 {{ loading ? "انتظر من فضلك" : "ابدأ الآن" }}
               </button>
 
               <small class="text-primary"
-              >من خلال إنشاء حساب، فإنك توافق على الشروط والأحكام, وسياسة الخصوصية الخاصة بنا وعلى تلقي مواد التسويق عبر البريد الإلكتروني – يمكنك إلغاء الاشتراك في أي وقت            </small>
-
+                >من خلال إنشاء حساب، فإنك توافق على الشروط والأحكام, وسياسة
+                الخصوصية الخاصة بنا وعلى تلقي مواد التسويق عبر البريد الإلكتروني
+                – يمكنك إلغاء الاشتراك في أي وقت
+              </small>
             </form>
-
           </div>
 
           <div class="col-md-6 ps-lg-0 wow fadeIn" data-wow-delay="0.3s">
-
-            <h2 class="text-primary text-center  display-4 mb-4">اكتشف قوة التداول 
-بالـــــذكاء الاصطناعي مع
-<span class="text-dark">
-    فـــــــــــــــــــــــــــــــلاجيدو!
-
-</span>
-
-
-</h2>
+            <h2 class="text-primary text-center display-4 mb-4">
+              اكتشف قوة التداول بالـــــذكاء الاصطناعي مع
+              <span class="text-dark">
+                فـــــــــــــــــــــــــــــــلاجيدو!
+              </span>
+            </h2>
             <img
               class="img-fluid"
               src="https://res.cloudinary.com/dt9k74vof/image/upload/v1717222304/copy/flagedu_ai_hwgqc2.webp"
@@ -387,13 +387,13 @@
             <div class="row g-4 pt-3">
               <div class="col-sm-6">
                 <div
-                  class="d-flex rounded p-3"
+                  class="d-flex rounded p-3 mx-2"
                   style="background: rgba(256, 256, 256, 0.1)"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="1em"
-                    height="1em"
+                    width="3em"
+                    height="3em"
                     viewBox="0 0 24 24"
                   >
                     <path
@@ -402,7 +402,7 @@
                     />
                   </svg>
                   <div class="ms-3">
-                    <h2 class="text-white mx-2 mb-0" data-toggle="counter-up">
+                    <h2 class="text-white mx-3 mb-0" data-toggle="counter-up">
                       23,345
                     </h2>
                     <p class="text-white mb-0">متداول</p>
@@ -416,8 +416,8 @@
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="1em"
-                    height="1em"
+                    width="3em"
+                    height="3em"
                     viewBox="0 0 24 24"
                   >
                     <path
@@ -478,16 +478,16 @@
             >
           </div>
           <div class="col-lg-7">
-            <div class="row g-4">
+            <div class="row">
               <div class="col-md-6">
-                <div class="row g-4">
-                  <div class="col-12 wow fadeIn" data-wow-delay="0.1s">
+                <div class="row">
+                  <div class="col-12 wow fadeIn m-2" data-wow-delay="0.1s">
                     <div
-                      class="service-item d-flex flex-column justify-content-center text-center rounded shadow-md "
+                      class="service-item d-flex flex-column justify-content-center text-center rounded shadow-md hi"
                     >
-                      <div class="service-icon btn-square">
+                      <div class="service-icon btn-square p-2">
                         <svg
-                          class="fs-1"
+                          class="fs-1 m-1"
                           xmlns="http://www.w3.org/2000/svg"
                           width="1em"
                           height="1em"
@@ -511,21 +511,21 @@
                       <h5 class="mb-3">اتخاذ القرارات الذكية</h5>
                       <p>
                         بفضل قدرته على استيعاب البيانات وتحليلها، يمكن للذكاء
-                        الاصطناعي توفير توصيات تداول دقيقة بناءً على معلومات
-                        موضوعية وأسس متقدمة.
+                        الاصطناعي توفير توصيات تداول دقيقة.
                       </p>
                       <a class="btn px-3 mt-auto mx-auto" href="#sign-up"
                         >المزيد</a
                       >
                     </div>
                   </div>
-                  <div class="col-12 wow fadeIn" data-wow-delay="0.5s">
+
+                  <div class="col-12 wow fadeIn m-2" data-wow-delay="0.5s">
                     <div
-                      class="service-item d-flex flex-column justify-content-center text-center rounded"
+                      class="service-item d-flex flex-column justify-content-center text-center rounded hi"
                     >
-                      <div class="service-icon btn-square">
+                      <div class="service-icon btn-square p-2">
                         <svg
-                          class="fs-1"
+                          class="fs-1 m-1"
                           xmlns="http://www.w3.org/2000/svg"
                           width="1.25em"
                           height="1em"
@@ -549,15 +549,16 @@
                   </div>
                 </div>
               </div>
-              <div class="col-md-6 pt-md-4">
-                <div class="row g-4">
-                  <div class="col-12 wow fadeIn" data-wow-delay="0.3s">
+
+              <div class="col-md-6">
+                <div class="row">
+                  <div class="col-12 wow fadeIn m-2" data-wow-delay="0.3s">
                     <div
-                      class="service-item d-flex flex-column justify-content-center text-center rounded"
+                      class="service-item d-flex flex-column justify-content-center text-center rounded hi"
                     >
-                      <div class="service-icon btn-square">
+                      <div class="service-icon btn-square p-2">
                         <svg
-                          class="fs-1"
+                          class="fs-1 m-1"
                           xmlns="http://www.w3.org/2000/svg "
                           width="1em"
                           height="1em"
@@ -576,21 +577,22 @@
                       <h5 class="mb-3">التعلم الآلي والتحسين المستمر</h5>
                       <p>
                         يمكن للنظم التي تعتمد على الذكاء الاصطناعي أن تتعلم من
-                        تجاربها وتحسن أدائها مع مرور الوقت، مما يجعلها قادرة على
-                        التكيف مع التغيرات في السوق وتحسين النتائج بشكل مستمر.
+                        تجاربها وتحسن أدائها ، مما يجعلها قادرة على التكيف مع
+                        التغيرات في السوق.
                       </p>
                       <a class="btn px-3 mt-auto mx-auto" href="#sign-up">
                         المزيد</a
                       >
                     </div>
                   </div>
-                  <div class="col-12 wow fadeIn" data-wow-delay="0.7s">
+
+                  <div class="col-12 wow fadeIn m-2" data-wow-delay="0.7s">
                     <div
-                      class="service-item d-flex flex-column justify-content-center text-center rounded"
+                      class="service-item d-flex flex-column justify-content-center text-center rounded hi"
                     >
-                      <div class="service-icon btn-square">
+                      <div class="service-icon btn-square p-2">
                         <svg
-                          class="fs-1"
+                          class="fs-1 m-1"
                           xmlns="http://www.w3.org/2000/svg"
                           width="1em"
                           height="1em"
@@ -606,7 +608,7 @@
                       <p>
                         يمكن للذكاء الاصطناعي معالجة كميات هائلة من البيانات
                         بسرعة ودقة، مما يسمح بتحليل الأنماط والاتجاهات في
-                        الأسواق المالية التي يصعب على الإنسان اكتشافها بمفرده.
+                        الأسواق المالية.
                       </p>
                       <a class="btn px-3 mt-auto mx-auto" href="#sign-up"
                         >المزيد</a
@@ -633,13 +635,16 @@
         alt="flagedu ai affiliate"
       />
 
-      <div class="row p-5 mx-auto">
+      <div class="p-5 mx-auto">
         <h2 class="fs-1 mr-3 text-center">لماذا تنضم لفلاجيدو؟</h2>
         <p class="fs-6 mr-4 mb-5">
           باستثناء رؤى تداول مدعومة بالذكاء الاصطناعي انت تحصل علي:
         </p>
 
-        <div class="d-flex justify-content-center flex-wrap" style="gap: 30px">
+        <div
+          class="row d-flex justify-content-center flex-wrap col-lg-8 mx-auto"
+          style="gap: 30px"
+        >
           <div class="card-x">
             <div class="content">
               <div class="back">
@@ -678,7 +683,7 @@
                   <div class="circle" id="bottom"></div>
                 </div>
 
-                <div class="front-content">
+                <div class="front-content row">
                   <svg
                     height="50px"
                     width="50px"
@@ -704,7 +709,7 @@
                   </svg>
 
                   <small class="badge"> إشارات تداول </small>
-                  <div class="description">
+                  <div class="description mx-2">
                     احصل على إشارات تداول يومية قائمة على التحليل الفني والأساسي
                     و احدث خوارزميات الذكاء الاصطناعي
                   </div>
@@ -812,13 +817,10 @@
 
                   <small class="badge"> مقارنة افضل الوسطاء </small>
                   <div class="description">
-                    <div class="title">
-                      <strong>
-                        اتخذ قرارات واعية بشأن اختيار الوسيط الأنسب لك من خلال
-                        مراجعاتنا الشاملة لأفضل شركات الوساطة المالية
-                      </strong>
-                    </div>
-                    <a class="btn btn-dark mt-2" href="#sign-up"> المزيد </a>
+                    <p>
+                      اتخذ قرارات واعية بشأن اختيار الوسيط الأنسب لك من خلال
+                      مراجعاتنا الشاملة لأفضل شركات الوساطة المالية
+                    </p>
                   </div>
                 </div>
               </div>
@@ -949,13 +951,9 @@
 
                   <small class="badge"> مراقبة السوق 24/7</small>
                   <div class="description">
-                    <div class="title">
-                      <strong>
-                        احصل على أحدث الأخبار والتطورات في الأسواق المالية
-                        مباشرة.
-                      </strong>
-                    </div>
-                    <a class="btn btn-dark mt-2" href="#sign-up"> المزيد </a>
+                    <p>
+                      احصل على أحدث الأخبار والتطورات في الأسواق المالية مباشرة.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -1028,10 +1026,10 @@
 
                   <small class="badge">دورات فلاجيدو</small>
                   <div class="description">
-                    <strong>
+                    <p>
                       ارتقِ بمعرفتك ومهاراتك من خلال مجموعة واسعة من الدورات
                       التدريبية التي يقدمها خبراء معتمدون
-                    </strong>
+                    </p>
                   </div>
                 </div>
               </div>
@@ -1092,7 +1090,7 @@
                       </g>
                     </g>
                   </svg>
-                  <strong>وصول فوري إلى مجتمع التداول الحصري </strong>
+                  <p>وصول فوري إلى مجتمع التداول الحصري</p>
                 </div>
               </div>
               <div class="front">
@@ -1156,14 +1154,10 @@
 
                   <small class="badge">مجتمع فلاجيدو</small>
                   <div class="description">
-                    <div class="title">
-                      <strong>
-                        مجتمع فلاجيدو يضم مستثمرين وخبراء ماليين يسعون لتحقيق
-                        النجاح المالي من خلال تبادل المعرفة والاستفادة من
-                        الخدمات المتميزة .
-                      </strong>
-                    </div>
-                    <a class="btn btn-dark mt-2" href="#sign-up"> المزيد </a>
+                    <p>
+                      مجتمع فلاجيدو يضم مستثمرين وخبراء ماليين يسعون لتحقيق
+                      النجاح المالي من خلال تبادل المعرفة.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -1351,8 +1345,8 @@
     </div>
     <!-- About End -->
 
-    <div class="container find-free py-10" dir="rtl">
-      <div class="find-freelancers">
+    <div class="container mx-auto find-free py-10" dir="rtl">
+      <div class="find-freelancers mx-auto">
         <h2 class="fs-1 mr-3 text-center">ضع أصبعك على نبض الأخبار المالية</h2>
         <hr />
 
@@ -1361,7 +1355,7 @@
           الأحداث على الأسواق
         </p>
       </div>
-      <div class="row">
+      <div class="row mx-auto" style="width: 90%">
         <!-- Card 1 -->
         <div class="col-md-4 col-sm-6">
           <div class="card">
@@ -1505,11 +1499,11 @@
               <h5 class="mb-0">ياسر الربيع</h5>
               <span>مستثمر</span>
               <p>
-                لقداستخدمت برنامج التداول بمساعده فلاجيدو لأكثر من عام الآن وأنا
-                سعيد جدا مع النتائج التي حققتها.وقد ساعد البرنامج لي لأتمتة
-                التداول لدي وتوفير الكثير من الوقت.أنا الآن قادر على قضاء المزيد
-                من الوقت مع عائلتي وأصدقائي في حين لا يزال بامكاني تحقيق ربح
-                جيد.
+                كنت متداول مبتدئ وليست لي خبرة بالاستثمار فقمت بالاستعانة بفريق
+                فلاجيدو و لأكثر من عام وحتى الآن وأنا سعيد جدا مع النتائج التي
+                حققتها.وقد ساعدني أستخدام الذكاء الاصطناعي في التداول على توفير
+                الكثير من الوقت.أنا الآن قادر على قضاء المزيد من الوقت مع عائلتي
+                وأصدقائي في حين لا يزال بامكاني تحقيق ربح جيد.
               </p>
             </div>
 
@@ -1609,9 +1603,10 @@
               <h5 class="mb-0">سها يزن</h5>
               <span>مستثمرة</span>
               <p>
-                أنا متداولة جديد وكنت مترددا في استخدام التداول بالذكاء الاصطناعي
-                في البداية. ولكن أنا سعيد لأنني فعلت! وقد ساعدني هذا كثيرا لتعلم
-                أساسيات التداول ووضع استراتيجيات للربح باقل مجهود .
+                أنا متداولة جديدة وكنت مترددة في استخدام التداول بالذكاء
+                الاصطناعي في البداية. ولكن أنا سعيدة لأنني فعلت! وقد ساعدني
+                فلاجيدو كثيرا في تعلم أساسيات التداول ووضع استراتيجيات للربح
+                باقل مجهود .
               </p>
             </div>
 
@@ -1900,7 +1895,7 @@
                     aria-expanded="false"
                     aria-controls="collapseThree"
                   >
-                    كيف ابدأ بالتداول بالذكاء الاصطناعي؟
+                    كيف ابدأ التداول بالذكاء الاصطناعي؟
                   </button>
                 </h2>
                 <div
@@ -2045,11 +2040,8 @@
                   data-bs-parent="#accordionFAQ2"
                 >
                   <div class="accordion-body">
-                    فلاجيدو هو شريكك المثالي في الاستثمار، يقدم خدمات متميزة
-                    تشمل اجتماعات فيديو حية مع خبراء، مساعد شخصي، توصيات
-                    استثمارية مجانية، تقييم وسطاء التداول، تحليلات الأسهم، أخبار
-                    الأسواق، وChatbot ذكية للدعم الفوري. انضم إلى فلاجيدو اليوم
-                    لتبدأ رحلتك الاستثمارية بثقة ونجاح.
+                    قم بالدخول الى فلاجيدو واختر اجتماعات فديو حيه قم بملء
+                    بياناتك ليتم التواص معك مباشرة من خلال فريق فلاجيدو المختص.
                   </div>
                 </div>
               </div>
@@ -2230,6 +2222,9 @@ export default class Evest2 extends Vue {
 }
 </script>
 <style>
+.hi {
+  height: 300px;
+}
 .card {
   max-width: 18rem;
   margin: 20px auto; /* Center the card horizontally and add bottom margin */
@@ -2293,7 +2288,9 @@ nav {
 .hero {
   background: rgba(0, 0, 0, 0.6);
   z-index: -1;
-  padding: 125px 0;
+  @media screen and (min-width: 991px) {
+    padding: 120px 0;
+  }
 }
 
 .hero-heading {
@@ -2458,6 +2455,7 @@ nav {
   background-color: #00000099;
   backdrop-filter: blur(5px);
   border-radius: 5px;
+  margin: auto;
 }
 
 .title {

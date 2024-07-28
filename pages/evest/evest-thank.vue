@@ -168,7 +168,7 @@
 
     <!-- Newsletter  Start -->
     <div
-      class="container-fluid newsletter py-5 mb-3 position-relative"
+      class="container-fluid newsletter md-py-5 mb-3 position-relative"
       dir="rtl"
     >
       <img
@@ -185,7 +185,7 @@
           >
             <form
               @submit.prevent="handleFormSubmit"
-              class="form mx-auto my-5 raw py-10 form-bg"
+              class="form mx-auto my-3 raw py-10 form-bg"
               dir="rtl"
             >
               <div class="flex justify-content-center flex-column">
@@ -387,13 +387,13 @@
             <div class="row g-4 pt-3">
               <div class="col-sm-6">
                 <div
-                  class="d-flex rounded p-3"
+                  class="d-flex rounded p-3 mx-2"
                   style="background: rgba(256, 256, 256, 0.1)"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="1em"
-                    height="1em"
+                    width="3em"
+                    height="3em"
                     viewBox="0 0 24 24"
                   >
                     <path
@@ -402,7 +402,7 @@
                     />
                   </svg>
                   <div class="ms-3">
-                    <h2 class="text-white mx-2 mb-0" data-toggle="counter-up">
+                    <h2 class="text-white mx-3 mb-0" data-toggle="counter-up">
                       23,345
                     </h2>
                     <p class="text-white mb-0">متداول</p>
@@ -416,8 +416,8 @@
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="1em"
-                    height="1em"
+                    width="3em"
+                    height="3em"
                     viewBox="0 0 24 24"
                   >
                     <path
@@ -683,7 +683,7 @@
                   <div class="circle" id="bottom"></div>
                 </div>
 
-                <div class="front-content">
+                <div class="front-content row">
                   <svg
                     height="50px"
                     width="50px"
@@ -709,7 +709,7 @@
                   </svg>
 
                   <small class="badge"> إشارات تداول </small>
-                  <div class="description">
+                  <div class="description mx-2">
                     احصل على إشارات تداول يومية قائمة على التحليل الفني والأساسي
                     و احدث خوارزميات الذكاء الاصطناعي
                   </div>
@@ -817,13 +817,10 @@
 
                   <small class="badge"> مقارنة افضل الوسطاء </small>
                   <div class="description">
-                    <div class="title">
-                      <strong>
-                        اتخذ قرارات واعية بشأن اختيار الوسيط الأنسب لك من خلال
-                        مراجعاتنا الشاملة لأفضل شركات الوساطة المالية
-                      </strong>
-                    </div>
-                    <a class="btn btn-dark mt-2" href="#sign-up"> المزيد </a>
+                    <p>
+                      اتخذ قرارات واعية بشأن اختيار الوسيط الأنسب لك من خلال
+                      مراجعاتنا الشاملة لأفضل شركات الوساطة المالية
+                    </p>
                   </div>
                 </div>
               </div>
@@ -954,13 +951,9 @@
 
                   <small class="badge"> مراقبة السوق 24/7</small>
                   <div class="description">
-                    <div class="title">
-                      <strong>
-                        احصل على أحدث الأخبار والتطورات في الأسواق المالية
-                        مباشرة.
-                      </strong>
-                    </div>
-                    <a class="btn btn-dark mt-2" href="#sign-up"> المزيد </a>
+                    <p>
+                      احصل على أحدث الأخبار والتطورات في الأسواق المالية مباشرة.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -1033,10 +1026,10 @@
 
                   <small class="badge">دورات فلاجيدو</small>
                   <div class="description">
-                    <strong>
+                    <p>
                       ارتقِ بمعرفتك ومهاراتك من خلال مجموعة واسعة من الدورات
                       التدريبية التي يقدمها خبراء معتمدون
-                    </strong>
+                    </p>
                   </div>
                 </div>
               </div>
@@ -1097,7 +1090,7 @@
                       </g>
                     </g>
                   </svg>
-                  <strong>وصول فوري إلى مجتمع التداول الحصري </strong>
+                  <p>وصول فوري إلى مجتمع التداول الحصري</p>
                 </div>
               </div>
               <div class="front">
@@ -1161,14 +1154,10 @@
 
                   <small class="badge">مجتمع فلاجيدو</small>
                   <div class="description">
-                    <div class="title">
-                      <strong>
-                        مجتمع فلاجيدو يضم مستثمرين وخبراء ماليين يسعون لتحقيق
-                        النجاح المالي من خلال تبادل المعرفة والاستفادة من
-                        الخدمات المتميزة .
-                      </strong>
-                    </div>
-                    <a class="btn btn-dark mt-2" href="#sign-up"> المزيد </a>
+                    <p>
+                      مجتمع فلاجيدو يضم مستثمرين وخبراء ماليين يسعون لتحقيق
+                      النجاح المالي من خلال تبادل المعرفة.
+                    </p>
                   </div>
                 </div>
               </div>
@@ -1356,8 +1345,8 @@
     </div>
     <!-- About End -->
 
-    <div class="container find-free py-10" dir="rtl">
-      <div class="find-freelancers">
+    <div class="container mx-auto find-free py-10" dir="rtl">
+      <div class="find-freelancers mx-auto">
         <h2 class="fs-1 mr-3 text-center">ضع أصبعك على نبض الأخبار المالية</h2>
         <hr />
 
@@ -1366,7 +1355,7 @@
           الأحداث على الأسواق
         </p>
       </div>
-      <div class="row" style="width: 90%">
+      <div class="row mx-auto" style="width: 90%">
         <!-- Card 1 -->
         <div class="col-md-4 col-sm-6">
           <div class="card">
@@ -1906,7 +1895,7 @@
                     aria-expanded="false"
                     aria-controls="collapseThree"
                   >
-                    كيف ابدأ بالتداول بالذكاء الاصطناعي؟
+                    كيف ابدأ التداول بالذكاء الاصطناعي؟
                   </button>
                 </h2>
                 <div
@@ -2051,11 +2040,8 @@
                   data-bs-parent="#accordionFAQ2"
                 >
                   <div class="accordion-body">
-                    فلاجيدو هو شريكك المثالي في الاستثمار، يقدم خدمات متميزة
-                    تشمل اجتماعات فيديو حية مع خبراء، مساعد شخصي، توصيات
-                    استثمارية مجانية، تقييم وسطاء التداول، تحليلات الأسهم، أخبار
-                    الأسواق، وChatbot ذكية للدعم الفوري. انضم إلى فلاجيدو اليوم
-                    لتبدأ رحلتك الاستثمارية بثقة ونجاح.
+                    قم بالدخول الى فلاجيدو واختر اجتماعات فديو حيه قم بملء
+                    بياناتك ليتم التواص معك مباشرة من خلال فريق فلاجيدو المختص.
                   </div>
                 </div>
               </div>
@@ -2309,7 +2295,9 @@ nav {
 .hero {
   background: rgba(0, 0, 0, 0.6);
   z-index: -1;
-  padding: 125px 0;
+  @media screen and (min-width: 991px) {
+    padding: 120px 0;
+  }
 }
 
 .hero-heading {
@@ -2474,6 +2462,7 @@ nav {
   background-color: #00000099;
   backdrop-filter: blur(5px);
   border-radius: 5px;
+  margin: auto;
 }
 
 .title {
