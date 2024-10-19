@@ -4,7 +4,7 @@
       <div class="container-fluid">
         <a class="navbar-brand abs" href="https://falgedu.com"
           ><img
-            src="https://res.cloudinary.com/dt9k74vof/image/upload/v1704012431/copy/avatrade/logo-ava_y5jnoq.png"
+            src="https://res.cloudinary.com/dmjbdeydm/image/upload/v1729348309/logo-ava_y5jnoq_lvpybv.png"
             alt=""
         /></a>
 
@@ -176,7 +176,7 @@
 
     <div class="row d-flex justify-content-center m-4">
       <img
-        src="https://res.cloudinary.com/dt9k74vof/image/upload/v1704012433/copy/avatrade/lp-pc-award_qdzmgq.jpg"
+        src="https://res.cloudinary.com/dmjbdeydm/image/upload/v1729347843/flaged_xxf7hk.webp"
         class="col-9"
       />
     </div>
@@ -339,7 +339,7 @@ form {
 }
 
 .bg-hero {
-  background-image: url(https://res.cloudinary.com/dt9k74vof/image/upload/v1704012439/copy/avatrade/Islamic_ar_2000_albqtu.jpg) !important;
+  background-image: url(https://res.cloudinary.com/dmjbdeydm/image/upload/v1729348544/Islamic_ar_2000_albqtu_y6mlc4.jpg) !important;
   height: auto !important;
   width: 100%;
   background-size: cover;

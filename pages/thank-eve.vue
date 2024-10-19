@@ -49,7 +49,7 @@ export default class ThankEve extends Vue {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: url(https://res.cloudinary.com/dt9k74vof/image/upload/v1706191787/banner-bg_qyfv1a.jpg);
+  background: url(https://res.cloudinary.com/dmjbdeydm/image/upload/v1729348262/banner-bg_qyfv1a_o2qygv.jpg);
   background-size: cover;
 }
 .thank-you-wrap {

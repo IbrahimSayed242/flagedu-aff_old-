@@ -4,7 +4,7 @@
       <div class="container-fluid">
         <a href="https://falgedu.com"
           ><img
-            src="https://res.cloudinary.com/dt9k74vof/image/upload/v1704012431/copy/avatrade/logo-ava_y5jnoq.png"
+            src="https://res.cloudinary.com/dmjbdeydm/image/upload/v1729348309/logo-ava_y5jnoq_lvpybv.png"
             alt="avatrade"
         /></a>
 
@@ -151,13 +151,13 @@
       <div class="row">
         <img
           class="col-lg-12 d-lg-block d-md-block d-sm-none"
-          src="https://res.cloudinary.com/dt9k74vof/image/upload/v1704021908/copy/avatrade/avatrade_zibqec.webp"
+          src="https://res.cloudinary.com/dmjbdeydm/image/upload/v1729348363/avatrade_zibqec_u2x9ip.webp"
           alt="ava trade"
         />
 
         <img
           class="col-lg-12 d-none d-md-none d-lg-none d-sm-block"
-          src="https://res.cloudinary.com/dt9k74vof/image/upload/v1704022724/copy/avatrade/avatrade_2_rzmxe4.webp"
+          src="https://res.cloudinary.com/dmjbdeydm/image/upload/v1729348380/avatrade_2_rzmxe4_gpulf7.webp"
           alt="ava trade"
         />
       </div>
@@ -184,13 +184,13 @@
 
     <img
       class="col-lg-12 d-lg-block d-none d-md-block d-sm-none"
-      src="https://res.cloudinary.com/dt9k74vof/image/upload/v1704023773/copy/avatrade/avatrade_jzlbb2.png"
+      src="https://res.cloudinary.com/dmjbdeydm/image/upload/v1729348404/avatrade_jzlbb2_ltd5ew.png"
       alt="ava trade"
     />
 
     <img
       class="col-lg-12 d-lg-none d-md-none d-sm-block d-xs-block"
-      src="https://res.cloudinary.com/dt9k74vof/image/upload/v1704023773/copy/avatrade/ava3_acneb7.webp"
+      src="https://res.cloudinary.com/dmjbdeydm/image/upload/v1729348419/ava3_acneb7_fxhf0p.webp"
       alt="ava trade"
     />
   </div>
@@ -295,7 +295,7 @@ export default class Avatrade_lp extends Vue {
 <!-- Use preprocessors via the lang attribute! e.g. <style lang="scss"> -->
 <style scoped lang="scss">
 .bg-hero {
-  background-image: url(https://res.cloudinary.com/dt9k74vof/image/upload/v1704019480/copy/avatrade/Imag_descktop_hkr0lh.jpg) !important;
+  background-image: url(https://res.cloudinary.com/dmjbdeydm/image/upload/v1729348442/Imag_descktop_hkr0lh_et1isc.jpg) !important;
   height: auto !important;
   width: 100%;
   background-size: cover;

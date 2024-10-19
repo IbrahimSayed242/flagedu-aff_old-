@@ -4,7 +4,7 @@
       <div class="row p-0 m-0">
         <img
           class="col-lg-2 col-md-4 col-xs-4 img-logo"
-          src="https://res.cloudinary.com/dt9k74vof/image/upload/v1704207698/copy/eva/fdcc36664b876f3643999b7d2c002afd_rhnmui.webp "
+          src="https://res.cloudinary.com/dmjbdeydm/image/upload/v1729350560/logo_3_waarbf_cpqq2c.png "
         />
       </div>
 
@@ -16,12 +16,12 @@
           <h1 class="fw-b">عيش تجربة التداول المثيرة مع</h1>
           <img
             class="col-11"
-            src=" https://res.cloudinary.com/dt9k74vof/image/upload/v1704208332/copy/eva/68d41939fa6aa94edba74bcf7bbd26a7_no6zk2.png"
+            src="https://res.cloudinary.com/dmjbdeydm/image/upload/v1729349914/68d41939fa6aa94edba74bcf7bbd26a7_no6zk2_mwymq4.png"
           />
 
           <img
             class="col-11"
-            src=" https://res.cloudinary.com/dt9k74vof/image/upload/v1704208332/copy/eva/f0fd90307a7ef720609c69a41cac2908_ikoavn.png"
+            src="https://res.cloudinary.com/dmjbdeydm/image/upload/v1729349974/f0fd90307a7ef720609c69a41cac2908_ikoavn_aytjpr.png"
           />
 
           <p class="fs-6">
@@ -33,7 +33,7 @@
           <img
             class="img-award border border-info rounded-3"
             width="500"
-            src=" https://res.cloudinary.com/dt9k74vof/image/upload/v1704208332/copy/eva/2126cde56d95b1b1a3fc7501e253de61_trhnhs.png"
+            src="https://res.cloudinary.com/dmjbdeydm/image/upload/v1729350922/2126cde56d95b1b1a3fc7501e253de61_trhnhs_mqshch.png"
           />
 
           <button
@@ -48,7 +48,7 @@
 
         <img
           class="col-lg-6 col-md-6 col-sm-11 m-auto"
-          src="https://res.cloudinary.com/dt9k74vof/image/upload/v1704207699/copy/eva/15acef12478252e91cbcd15031a200f0_1_zmhcfd.webp"
+          src="https://res.cloudinary.com/dmjbdeydm/image/upload/v1729350922/2126cde56d95b1b1a3fc7501e253de61_trhnhs_mqshch.png"
         />
       </div>
 
@@ -60,11 +60,11 @@
         >
           <img
             class="my-5 d-none d-lg-block d-md-block d-sm-none m-auto"
-            src="https://res.cloudinary.com/dt9k74vof/image/upload/v1704210624/copy/eva/eve_iwgz4d.png"
+            src="https://res.cloudinary.com/dmjbdeydm/image/upload/v1729350968/eve_iwgz4d_dkykdh_jgl9ps.png"
           />
           <img
             class="my-5 d-md-none d-lg-none d-sm-block"
-            src="  https://res.cloudinary.com/dt9k74vof/image/upload/v1704267936/copy/eva/eve_brtjhn.webp"
+            src="  https://res.cloudinary.com/dmjbdeydm/image/upload/v1729350054/eve_brtjhn_o8t2ly.webp"
           />
         </div>
         <a
@@ -80,33 +80,33 @@
       <div class="p-0 text-center my-0">
         <img
           class="col-12"
-          src="https://res.cloudinary.com/dt9k74vof/image/upload/v1704211374/copy/eva/8ba59ecb7229c8e226d035acac82fac9_ud6tpg.webp"
+          src="https://res.cloudinary.com/dmjbdeydm/image/upload/v1729351048/8ba59ecb7229c8e226d035acac82fac9_ud6tpg_acf7oh.webp"
         />
       </div>
     </div>
 
     <div class="row mx-5">
       <img
-        src="https://res.cloudinary.com/dt9k74vof/image/upload/v1704208367/copy/eva/8e80c159087e48c691210c16bb746ac1_eym1ai.gif"
+        src="https://res.cloudinary.com/dmjbdeydm/image/upload/v1729350146/8e80c159087e48c691210c16bb746ac1_eym1ai_ffgbfc.gif"
         class="col-md-5 col-sm-10 m-auto"
       />
 
       <img
-        src="https://res.cloudinary.com/dt9k74vof/image/upload/v1704207701/copy/eva/dd3e609f6a758832cd7cf558a409fdb1_1_ogcyuc.webp"
+        src="https://res.cloudinary.com/dmjbdeydm/image/upload/v1729350195/dd3e609f6a758832cd7cf558a409fdb1_1_ogcyuc_b9yoey.webp"
         class="col-md-6 col-sm-10 m-auto"
       />
     </div>
 
     <div class="bg-dark d-flex justify-content-center">
       <img
-        src="https://res.cloudinary.com/dt9k74vof/image/upload/v1704207697/copy/eva/fab0834341634d9d435bfbc8e6a08763_nfpic7.webp"
+        src="https://res.cloudinary.com/dmjbdeydm/image/upload/v1729350231/fab0834341634d9d435bfbc8e6a08763_shcxjy.avif"
         class="m-auto col-3"
       />
     </div>
 
     <div class="d-flex justify-content-center my-4">
       <img
-        src="https://res.cloudinary.com/dt9k74vof/image/upload/v1704207692/copy/eva/b68042b4e647978eb858c0febb9434cc_mvvaes.webp"
+        src="https://res.cloudinary.com/dmjbdeydm/image/upload/v1729350362/b68042b4e647978eb858c0febb9434cc_mvvaes_njvmpu.webp"
         class="m-auto col-9"
       />
     </div>
@@ -342,7 +342,7 @@ export default class EveTrade extends Vue {
       rgba(255, 255, 255, 0.35) 0%,
       rgba(255, 255, 255, 0.35) 100%
     ),
-    url(https://res.cloudinary.com/dt9k74vof/image/upload/v1704207702/copy/eva/aa35396f1d10bd5568b032f6dda61351_yp2uh3.webp),
+    url(https://res.cloudinary.com/dmjbdeydm/image/upload/v1729350471/aa35396f1d10bd5568b032f6dda61351_yp2uh3_l9wbhs.webp),
     rgba(255, 255, 255, 0);
 
   background-repeat: no-repeat;
@@ -426,6 +426,9 @@ img {
   }
 }
 .img-logo {
-  height: 140px;
+  height: 100px;
+  margin-top: 20px;
+  width: 120px;
+  margin: auto;
 }
 </style>

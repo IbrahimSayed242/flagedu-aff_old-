@@ -3,7 +3,7 @@
     <nav class="navbar navbar-dark bg-nav fixed-top py-10" dir="rtl">
       <a class="navbar-brand" href="#">
         <img
-          src="https://res.cloudinary.com/dt9k74vof/image/upload/v1710162084/flagedu_2_z9xrox.png"
+          src="https://res.cloudinary.com/dmjbdeydm/image/upload/v1729347843/flaged_xxf7hk.webp"
           class=""
           width="120"
         />
@@ -14,7 +14,7 @@
     <section class="hero-section bg-hero">
       <div class="hero">
         <div class="container xxx">
-          <h1 class="hero-heading lg-pt-10">
+          <h1 class="hero-heading lg-pt-10" style="padding-top: 100px">
             إجعل <span class="text-primary"> الذكاء الإصطناعي</span> يعمل من
             أجلك
           </h1>
@@ -24,7 +24,7 @@
           </p>
           <br />
           <img
-            src="https://res.cloudinary.com/dt9k74vof/image/upload/v1710162084/flagedu_2_z9xrox.png"
+            src="https://res.cloudinary.com/dmjbdeydm/image/upload/v1729347843/flaged_xxf7hk.webp"
             alt="ai-page"
             width="150px"
             class="mx-auto mt-2 mb-5 opacity-50"
@@ -174,7 +174,7 @@
       <img
         style="z-index: -1; width: 99%; float: right; overflow: hidden"
         class="bottom-0 start-0 position-absolute opacity-25"
-        src="https://res.cloudinary.com/dt9k74vof/image/upload/v1716993872/technology_circuit_by_anulubi_dd5tdr2-fullview_cerjyd.png"
+        src="https://res.cloudinary.com/dmjbdeydm/image/upload/v1729348678/technology_circuit_by_anulubi_dd5tdr2-fullview_cerjyd_ipffmt.png"
         alt="flagedu ai affiliate"
       />
       <div class="" id="sign-up">
@@ -194,7 +194,7 @@
                   جرب الآن! سجل اليوم واستفد من أفضل العروض
                 </p>
                 <img
-                  src="https://res.cloudinary.com/dt9k74vof/image/upload/v1716878443/copy/sd_wso2on.gif"
+                  src="https://res.cloudinary.com/dmjbdeydm/image/upload/v1729348733/sd_wso2on_lxnqoz.gif"
                   alt="flagedu ai affiliate"
                   width="150px"
                   class="mx-auto"
@@ -299,7 +299,7 @@
             </h2>
             <img
               class="img-fluid"
-              src="https://res.cloudinary.com/dt9k74vof/image/upload/v1717222304/copy/flagedu_ai_hwgqc2.webp"
+              src="https://res.cloudinary.com/dmjbdeydm/image/upload/v1729348783/flagedu_ai_hwgqc2_xqyw3u.webp"
               alt="flagedu ai affiliate"
             />
           </div>
@@ -445,7 +445,7 @@
             <img
               class=""
               width="100%"
-              src="https://res.cloudinary.com/dt9k74vof/image/upload/v1716984190/copy/al_cvswdh.webp"
+              src="https://res.cloudinary.com/dmjbdeydm/image/upload/v1729348836/al_cvswdh_ahsnmt.webp"
               alt="flagedu ai affiliate"
             />
           </div>
@@ -631,7 +631,7 @@
       <img
         style="z-index: -1; width: 99%; float: right; overflow: hidden"
         class="bottom-0 start-0 position-absolute opacity-25"
-        src="https://res.cloudinary.com/dt9k74vof/image/upload/v1711548454/6391a6daa19785eb51dd3666_CTA_2_-svg_tt6nwn.svg"
+        src="https://res.cloudinary.com/dmjbdeydm/image/upload/v1729348836/al_cvswdh_ahsnmt.webp"
         alt="flagedu ai affiliate"
       />
 
@@ -1254,7 +1254,7 @@
             <div class="about-img">
               <img
                 class="img-fluid"
-                src="https://res.cloudinary.com/dt9k74vof/image/upload/v1716972194/copy/ai_1_wjefg3.webp"
+                src="https://res.cloudinary.com/dmjbdeydm/image/upload/v1729349315/ai_1_wjefg3_gbaqhv.webp"
                 alt="flagedu ai affiliate"
               />
             </div>
@@ -1488,7 +1488,7 @@
           <div class="card p-3 text-center px-4">
             <div class="user-image m-2">
               <img
-                src="https://res.cloudinary.com/dt9k74vof/image/upload/v1717656040/copy/download_yyvgef.jpg"
+                src="https://res.cloudinary.com/dmjbdeydm/image/upload/v1729349405/download_yyvgef_ptkwls.jpg"
                 class="rounded-circle"
                 width="80"
                 alt="flagedu ai affiliate"
@@ -1592,7 +1592,7 @@
           <div class="card p-3 text-center px-4">
             <div class="user-image m-2">
               <img
-                src="https://res.cloudinary.com/dt9k74vof/image/upload/v1716821371/copy/New_Project_qg0fod.webp"
+                src="https://res.cloudinary.com/dmjbdeydm/image/upload/v1729349580/download_vm9ihw_ljy3ad.jpg"
                 class="rounded-circle"
                 width="80"
                 alt="flagedu ai affiliate"
@@ -1714,7 +1714,7 @@
           <div class="card p-3 text-center px-4">
             <div class="user-image m-2">
               <img
-                src="https://res.cloudinary.com/dt9k74vof/image/upload/v1717656284/copy/download_vm9ihw.jpg"
+                src="https://res.cloudinary.com/dmjbdeydm/image/upload/v1729349580/download_vm9ihw_ljy3ad.jpg"
                 class="rounded-circle"
                 width="80"
                 alt="flagedu ai affiliate"
@@ -2282,7 +2282,7 @@ nav {
 }
 
 .hero-section {
-  background: url("https://res.cloudinary.com/dt9k74vof/image/upload/v1716888314/copy/EPRS-AaG-760392-AI-key-indicators-FINAL_ql5gct.webp")
+  background: url("https://res.cloudinary.com/dmjbdeydm/image/upload/v1729349655/EPRS-AaG-760392-AI-key-indicators-FINAL_ql5gct_zul3gt.webp")
     center/cover no-repeat;
   color: #fff;
   text-align: center;
@@ -2626,7 +2626,7 @@ h6,
 /*** Hero Header ***/
 .hero-header {
   margin-top: -75px;
-  background: url(https://res.cloudinary.com/dt9k74vof/image/upload/v1716888314/copy/EPRS-AaG-760392-AI-key-indicators-FINAL_ql5gct.webp)
+  background: url(https://res.cloudinary.com/dmjbdeydm/image/upload/v1729349655/EPRS-AaG-760392-AI-key-indicators-FINAL_ql5gct_zul3gt.webp)
     center center no-repeat;
   background-size: cover;
 }

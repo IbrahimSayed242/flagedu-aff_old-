@@ -7,7 +7,7 @@
             <div class="hero-content text-sm-center">
               <p>إيفي تريد – افتح الباب لنجاح تداول</p>
               <img
-                src="https://res.cloudinary.com/dt9k74vof/image/upload/v1707109431/logo_3_waarbf.png"
+                src="https://res.cloudinary.com/dmjbdeydm/image/upload/v1729350560/logo_3_waarbf_cpqq2c.png"
                 alt="eve trade"
               />
               <h1
@@ -44,7 +44,7 @@
           <div class="col-lg-6 my-2">
             <figure class="hero-img-wrap my-2">
               <img
-                src="https://res.cloudinary.com/dt9k74vof/image/upload/v1707050154/banner-img_dtnzcs.png"
+                src="https://res.cloudinary.com/dmjbdeydm/image/upload/v1729350621/banner-img_dtnzcs_wfessd.png"
                 class="img-eve"
                 width="100%"
                 alt="eve trade"
@@ -69,7 +69,7 @@
             <div class="row">
               <img
                 class="col-10 m-auto col-lg-8"
-                src="https://res.cloudinary.com/dt9k74vof/image/upload/v1707057864/halal-certificate_u6lzsw.png"
+                src="https://res.cloudinary.com/dmjbdeydm/image/upload/v1729350639/halal-certificate_u6lzsw_vhefnt.png"
               />
             </div>
             <p class="text-center mb-4 fs-5">
@@ -226,7 +226,7 @@
         <div class="col-sm-5 col-md-3 bg-x p-3 m-1">
           <figure class="hero-img-wrap my-2 row">
             <img
-              src="https://res.cloudinary.com/dt9k74vof/image/upload/v1707059551/S02-img02_qpwxdb.jpg"
+              src="https://res.cloudinary.com/dmjbdeydm/image/upload/v1729350659/S02-img02_qpwxdb_vwvrlz.jpg"
               class=" "
               alt="eve trade"
             />
@@ -240,7 +240,7 @@
         <div class="col-sm-5 col-md-3 bg-x p-3 m-1">
           <figure class="hero-img-wrap my-2 row">
             <img
-              src="https://res.cloudinary.com/dt9k74vof/image/upload/v1707059552/S02-img01_igeft6.jpg"
+              src="https://res.cloudinary.com/dmjbdeydm/image/upload/v1729350688/S02-img01_igeft6_iqzrgt.jpg"
               class=""
               alt="eve trade"
             />
@@ -301,13 +301,13 @@
 
         <img
           class="d-none d-sm-block"
-          src="https://res.cloudinary.com/dt9k74vof/image/upload/v1707060450/eve_trade_vgpkjp.png"
+          src="https://res.cloudinary.com/dmjbdeydm/image/upload/v1729350760/eve_trade_vgpkjp_swlzmk.png"
           alt="eve trade"
         />
 
         <img
           class="d-sm-none"
-          src="https://res.cloudinary.com/dt9k74vof/image/upload/v1707061123/eve_eqlukc.png"
+          src="https://res.cloudinary.com/dmjbdeydm/image/upload/v1729350776/eve_eqlukc_evcnwf.png"
           alt="eve trade"
         />
       </div>
@@ -507,11 +507,11 @@ h1 {
   background-color: white;
 }
 .bg-x {
-  background-image: url("https://res.cloudinary.com/dt9k74vof/image/upload/v1707058480/bg_ljfjkp.png");
+  background-image: url("https://res.cloudinary.com/dmjbdeydm/image/upload/v1729350811/bg_ljfjkp_sftkib.png");
 }
 
 .bg-footer {
-  background-image: url("https://res.cloudinary.com/dt9k74vof/image/upload/v1707061456/footer-bg_atsxis.jpg");
+  background-image: url("https://res.cloudinary.com/dmjbdeydm/image/upload/v1729350835/footer-bg_atsxis_gwe27l.jpg");
 }
 /* add important */
 

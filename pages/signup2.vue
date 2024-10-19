@@ -125,7 +125,7 @@
           <div class="col-lg-6 d-flex justify-content-center">
             <img class="" />
             <img
-              src="https://res.cloudinary.com/dt9k74vof/image/upload/v1703670887/copy/1_gfjzdk.png"
+              src="https://res.cloudinary.com/dmjbdeydm/image/upload/v1729347683/1_gfjzdk_iriw7z.png"
               class="img-fluid m-auto"
               alt=""
             />
@@ -280,7 +280,7 @@
           <div class="row flex justify-content-center">
             <img
               class="col-lg-4 col-md-4 col-5 mb-3"
-              src="https://res.cloudinary.com/dt9k74vof/image/upload/v1703665444/copy/big_dark-01_cbvza1.png"
+              src="https://res.cloudinary.com/dmjbdeydm/image/upload/v1729347843/flaged_xxf7hk.webp"
               alt="flagedu-logo"
               width="200"
               height="120"
@@ -505,7 +505,7 @@
             <h3>دعم مخصص</h3>
             <img
               class="col-6"
-              src="https://res.cloudinary.com/dt9k74vof/image/upload/v1703676354/copy/flagedu_wblyin.svg"
+              src="https://res.cloudinary.com/dmjbdeydm/image/upload/v1729347886/flagedu_wblyin_l282cc.svg"
               alt=""
             />
           </div>
@@ -525,7 +525,7 @@
             <h3>عمولات عالية</h3>
             <img
               class="col-6"
-              src="https://res.cloudinary.com/dt9k74vof/image/upload/v1703676354/copy/undraw_online_wishes_dlmr_cntpa5.svg"
+              src="https://res.cloudinary.com/dmjbdeydm/image/upload/v1729347925/undraw_online_wishes_dlmr_cntpa5_1_xemi3m.svg"
               alt=""
             />
           </div>
@@ -544,8 +544,8 @@
             <h3>موارد حصرية</h3>
             <img
               class="col-6"
-              src="https://res.cloudinary.com/dt9k74vof/image/upload/v1703676354/copy/undraw_instant_support_re_s7un_npv1f2.svg"
-              alt=""
+              src="https://res.cloudinary.com/dmjbdeydm/image/upload/v1729347949/undraw_instant_support_re_s7un_npv1f2_m1vgpd.svg"
+              alt="flagedu"
             />
           </div>
           <div class="flip-card-back">
@@ -581,7 +581,7 @@
             <div class="p-2 text-black">
               <div class="flex-shrink-1 bd-highlight rounded-circle">
                 <img
-                  src="https://res.cloudinary.com/dt9k74vof/image/upload/v1703669065/copy/exness_u14rg9.webp"
+                  src="https://res.cloudinary.com/dmjbdeydm/image/upload/v1729348062/exness_u14rg9_csbivi.webp"
                   alt=""
                   width="200px"
                   height="250px"
@@ -610,7 +610,7 @@
             <div class="p-2 text-black">
               <div class="flex-shrink-1 bd-highlight rounded-circle">
                 <img
-                  src="https://res.cloudinary.com/dt9k74vof/image/upload/v1703669067/copy/ingot_y96utm.webp"
+                  src="https://res.cloudinary.com/dmjbdeydm/image/upload/v1729348077/ingot_y96utm_yeoplb.webp"
                   alt=""
                   width="200px"
                   height="250px"
@@ -637,7 +637,7 @@
             <div class="p-2 text-black">
               <div class="flex-shrink-1 bd-highlight rounded-circle">
                 <img
-                  src="https://res.cloudinary.com/dt9k74vof/image/upload/v1703669065/copy/evest_xjj0rq.jpg"
+                  src="https://res.cloudinary.com/dmjbdeydm/image/upload/v1729348095/evest_xjj0rq_ywlaho.jpg"
                   alt=""
                   width="200px"
                   height="250px"
@@ -666,7 +666,7 @@
             <div class="p-2 text-black">
               <div class="flex-shrink-1 bd-highlight rounded-circle">
                 <img
-                  src="https://res.cloudinary.com/dt9k74vof/image/upload/v1703669065/copy/mutibank_aj5zwn.png"
+                  src="https://res.cloudinary.com/dmjbdeydm/image/upload/v1729348124/mutibank_aj5zwn_zmxpyu.png"
                   alt=""
                   width="200px"
                   height="250px"
@@ -745,7 +745,7 @@
             <div class="row flex justify-content-center">
               <img
                 class="col-lg-4 col-md-4 col-5 mb-3"
-                src="https://res.cloudinary.com/dt9k74vof/image/upload/v1703665444/copy/big_dark-01_cbvza1.png"
+                src="https://res.cloudinary.com/dmjbdeydm/image/upload/v1729347826/flagedu-01_qnnvud_2_hlsfkb.svg"
                 alt="flagedu-logo"
                 width="200"
                 height="120"
@@ -1201,7 +1201,7 @@ img {
 }
 
 .bg-f {
-  background-image: url("https://res.cloudinary.com/dt9k74vof/image/upload/v1703667657/copy/flaged_uvfx8l.webp");
+  background-image: url("https://res.cloudinary.com/dmjbdeydm/image/upload/v1729348192/flaged_uvfx8l_lu8atm.webp");
   background-size: cover;
   background-repeat: no-repeat;
 }

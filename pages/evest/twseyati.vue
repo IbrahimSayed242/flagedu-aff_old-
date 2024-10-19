@@ -4,7 +4,7 @@
       <div v-if="!finish">
         <img
           class="mt-4 p-3 img-Qu"
-          src="https://res.cloudinary.com/dt9k74vof/image/upload/v1707233504/copy/logo_qggbez.svg"
+          src="https://res.cloudinary.com/dmjbdeydm/image/upload/v1729349717/logo_qggbez_wx524w.svg"
           width="200"
           hieght="150 "
         />
@@ -118,7 +118,7 @@
           <div class="">
             <img
               class="m-2 m-md-5"
-              src="https://res.cloudinary.com/dt9k74vof/image/upload/v1707233504/copy/logo_qggbez.svg"
+              src="https://res.cloudinary.com/dmjbdeydm/image/upload/v1729349717/logo_qggbez_wx524w.svg"
               width="150"
               hieght="120 "
               style="object-fit: contain"
@@ -440,7 +440,7 @@ button {
 }
 
 .back-t {
-  background-image: url(https://res.cloudinary.com/dt9k74vof/image/upload/v1707232531/copy/earth-layer_jadxvo.png);
+  background-image: url(https://res.cloudinary.com/dmjbdeydm/image/upload/v1729349768/earth-layer_jadxvo_a6shpb.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -456,14 +456,14 @@ button {
 }
 
 .back-invest {
-  background-image: url(https://res.cloudinary.com/dt9k74vof/image/upload/v1707281707/bulls_wffqct.png);
+  background-image: url(https://res.cloudinary.com/dmjbdeydm/image/upload/v1729349798/bulls_wffqct_oi9cll.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
 }
 
 .back-money {
-  background-image: url(https://res.cloudinary.com/dt9k74vof/image/upload/v1707281707/stocks-bg_svid4a.png);
+  background-image: url(https://res.cloudinary.com/dmjbdeydm/image/upload/v1729349823/stocks-bg_svid4a_rjodhn.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
@@ -482,7 +482,7 @@ button {
 }
 
 .form-c {
-  background-image: url(https://res.cloudinary.com/dt9k74vof/image/upload/v1707289929/copy/Targeted-Page-1_szszqf.png);
+  background-image: url(https://res.cloudinary.com/dmjbdeydm/image/upload/v1729349869/Targeted-Page-1_szszqf_tmcnbx.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;

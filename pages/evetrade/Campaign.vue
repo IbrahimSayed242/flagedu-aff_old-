@@ -4,7 +4,7 @@
       <div class="row p-0 m-0">
         <img
           class="col-lg-2 col-md-4 col-xs-4 img-logo"
-          src="https://res.cloudinary.com/dt9k74vof/image/upload/v1704207698/copy/eva/fdcc36664b876f3643999b7d2c002afd_rhnmui.webp "
+          src="https://res.cloudinary.com/dmjbdeydm/image/upload/v1729350560/logo_3_waarbf_cpqq2c.png"
         />
       </div>
 
@@ -13,12 +13,12 @@
           <p class="fw-b head-title">عيش تجربة التداول المثيرة مع</p>
           <img
             class=""
-            src="https://res.cloudinary.com/dt9k74vof/image/upload/v1704208332/copy/eva/68d41939fa6aa94edba74bcf7bbd26a7_no6zk2.png"
+            src="https://res.cloudinary.com/dmjbdeydm/image/upload/v1729349914/68d41939fa6aa94edba74bcf7bbd26a7_no6zk2_mwymq4.png"
           />
 
           <img
             class=""
-            src=" https://res.cloudinary.com/dt9k74vof/image/upload/v1704208332/copy/eva/f0fd90307a7ef720609c69a41cac2908_ikoavn.png"
+            src="https://res.cloudinary.com/dmjbdeydm/image/upload/v1729349974/f0fd90307a7ef720609c69a41cac2908_ikoavn_aytjpr.png"
           />
 
           <p class="fs-6 head-right-desc">
@@ -66,11 +66,11 @@
         >
           <img
             class="my-5 d-none d-lg-block d-md-block d-sm-none m-auto"
-            src="https://res.cloudinary.com/dt9k74vof/image/upload/v1704210624/copy/eva/eve_iwgz4d.png"
+            src="https://res.cloudinary.com/dmjbdeydm/image/upload/v1729350009/eve_iwgz4d_dkykdh.png"
           />
           <img
             class="my-5 d-md-none d-lg-none d-sm-block"
-            src="  https://res.cloudinary.com/dt9k74vof/image/upload/v1704267936/copy/eva/eve_brtjhn.webp"
+            src=" https://res.cloudinary.com/dmjbdeydm/image/upload/v1729350054/eve_brtjhn_o8t2ly.webp"
           />
         </div>
         <a
@@ -86,26 +86,26 @@
 
     <div class="gif-and-image-cont">
       <img
-        src="https://res.cloudinary.com/dt9k74vof/image/upload/v1704208367/copy/eva/8e80c159087e48c691210c16bb746ac1_eym1ai.gif"
+        src="https://res.cloudinary.com/dmjbdeydm/image/upload/v1729350146/8e80c159087e48c691210c16bb746ac1_eym1ai_ffgbfc.gif"
         class="image1"
       />
 
       <img
-        src="https://res.cloudinary.com/dt9k74vof/image/upload/v1704207701/copy/eva/dd3e609f6a758832cd7cf558a409fdb1_1_ogcyuc.webp"
+        src="https://res.cloudinary.com/dmjbdeydm/image/upload/v1729350195/dd3e609f6a758832cd7cf558a409fdb1_1_ogcyuc_b9yoey.webp"
         class="image2"
       />
     </div>
 
     <div class="bg-black d-flex justify-content-center">
       <img
-        src="https://images.clickfunnels.com/cdn-cgi/image/width=1000px,fit=scale-down,f=auto,q=80/https://statics.myclickfunnels.com/image/904494/file/fab0834341634d9d435bfbc8e6a08763.png"
+        src="https://res.cloudinary.com/dmjbdeydm/image/upload/v1729350231/fab0834341634d9d435bfbc8e6a08763_shcxjy.avif"
         class="m-auto col-2"
       />
     </div>
 
     <div class="d-flex justify-content-center my-4">
       <img
-        src="https://res.cloudinary.com/dt9k74vof/image/upload/v1704207692/copy/eva/b68042b4e647978eb858c0febb9434cc_mvvaes.webp"
+        src="https://res.cloudinary.com/dmjbdeydm/image/upload/v1729350362/b68042b4e647978eb858c0febb9434cc_mvvaes_njvmpu.webp"
         class="m-auto col-7"
       />
     </div>
@@ -347,7 +347,7 @@ export default class EveTrade extends Vue {
       rgba(255, 255, 255, 0.35) 0%,
       rgba(255, 255, 255, 0.35) 100%
     ),
-    url(https://res.cloudinary.com/dt9k74vof/image/upload/v1704207702/copy/eva/aa35396f1d10bd5568b032f6dda61351_yp2uh3.webp),
+    url(https://res.cloudinary.com/dmjbdeydm/image/upload/v1729350471/aa35396f1d10bd5568b032f6dda61351_yp2uh3_l9wbhs.webp),
     rgba(255, 255, 255, 0);
 
   background-repeat: no-repeat;
