@@ -1,5 +1,5 @@
 <template>
-  <div class="" dir="rtl">
+  <div class="" dir="rtl" style="background-color: aliceblue">
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
@@ -41,8 +41,8 @@
 
             <li class="nav-item">
               <a
-                class="nav-link btn"
-                role="button"
+                class="nav-link"
+                target="_blank"
                 href="https://flagedu.com/common/contact-us"
                 data-bs-toggle="collapse"
                 >تواصل معنا
@@ -52,9 +52,7 @@
               <a
                 class="nav-link btn btn-primary text-light"
                 role="button"
-                href="#sin-in"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
+                href="#form"
                 >سجل الآن</a
               >
             </li>
@@ -90,14 +88,12 @@
               </p>
 
               <a
-                href="#sin-in"
+                href="#form"
                 class="btn btn-md px-5 py-3 btn-primary rounded-pill shadow-lg"
-                data-bs-toggle="modal"
-                data-bs-target="#exampleModal"
                 >ابدأ الان</a
               >
               <a
-                href="#"
+                href="#form"
                 class="l-more ms-3 text-decoration-none fw-semibold mx-3 d-inline-block scale"
               >
                 <span class="text-flagedu icon"> تعرف علي المزيد</span>
@@ -273,6 +269,7 @@
         <div
           class="col-lg-5 m-2 bg-d rounded-3 shadow p-5 align-self-center"
           dir="ltr"
+          id="form"
         >
           <p class="text-light text-center mb-4 fs-2">
             ابدأ الآن بتجربتك الاعلان معنا
@@ -706,262 +703,17 @@
               ماذا تنتظر
             </p>
 
-            <h2 class="display-3 mb-3 fw-bold">
+            <h2 class="display-3 mb-3 fw-bold text-flagedu">
               انضم الآن الينا وكن أحد شريكاً لفلاجيدو
             </h2>
 
-            <a
-              href="#sin-in"
-              class="btn btn-primary"
-              data-bs-toggle="modal"
-              data-bs-target="#exampleModal"
-              >انضم الآن
-            </a>
+            <a href="#form" class="btn btn-primary">انضم الآن </a>
           </div>
         </div>
       </div>
     </div>
 
     <!-- Button trigger modal -->
-
-    <!-- Modal -->
-    <div
-      class="modal fade"
-      id="exampleModal"
-      tabindex="-1"
-      aria-labelledby="exampleModalLabel"
-      aria-hidden="true"
-      dir="ltr"
-    >
-      <div class="modal-dialog">
-        <div class="modal-content bg-d">
-          <div
-            class="m-2 bg-d rounded-3 shadow p-5 align-self-center"
-            dir="ltr"
-          >
-            <p class="text-light text-center mb-4 fs-2">
-              ابدأ الآن بتجربتك الاعلان معنا
-            </p>
-            <div class="row flex justify-content-center">
-              <img
-                class="col-lg-4 col-md-4 col-5 mb-3"
-                src="https://res.cloudinary.com/dmjbdeydm/image/upload/v1729347826/flagedu-01_qnnvud_2_hlsfkb.svg"
-                alt="flagedu-logo"
-                width="200"
-                height="120"
-              />
-            </div>
-
-            <ValidationObserver
-              v-slot="{ invalid }"
-              tag="form"
-              @submit.prevent="handleSignup"
-            >
-              <ValidationProvider
-                :rules="{ required: true }"
-                v-slot="{ errors }"
-                tag="div"
-                class="mb-3"
-              >
-                <div class="form-input mb-1">
-                  <input
-                    type="text"
-                    name="Full name"
-                    :class="{
-                      'form-control': true,
-                      redborder: errors[0],
-                    }"
-                    class="form-control"
-                    placeholder="Full name"
-                    v-model="formData.full_name"
-                  />
-                </div>
-                <small v-if="errors.length" class="error">
-                  {{ errors[0] }}
-                </small>
-              </ValidationProvider>
-
-              <ValidationProvider
-                rules="required"
-                v-slot="{ errors }"
-                tag="div"
-                class="mb-3"
-              >
-                <div class="form-input mb-1">
-                  <input
-                    type="email"
-                    name="Email"
-                    :class="{
-                      'form-control': true,
-                      redborder: errors[0],
-                    }"
-                    class="form-control"
-                    placeholder="Email"
-                    v-model="formData.email"
-                  />
-                </div>
-                <small v-if="errors.length" class="error">
-                  {{ errors[0] }}
-                </small>
-              </ValidationProvider>
-
-              <ValidationProvider
-                rules="required"
-                v-slot="{ errors }"
-                tag="div"
-                class="mb-3"
-              >
-                <select
-                  v-model="formData.country"
-                  class="form-select country-select"
-                  name="Country"
-                >
-                  <option value="">Select country</option>
-                  <option
-                    v-for="(item, idx) in countries"
-                    :key="'country_' + idx"
-                    :value="item.id"
-                  >
-                    {{ item.name }}
-                  </option>
-                </select>
-                <small v-if="errors.length" class="error">
-                  {{ errors[0] }}
-                </small>
-              </ValidationProvider>
-
-              <ValidationProvider
-                rules="required"
-                v-slot="{ errors }"
-                tag="div"
-                class="mb-3"
-              >
-                <div class="form-input mb-1">
-                  <input
-                    type="text"
-                    name="Phone"
-                    :class="{
-                      'form-control': true,
-                      redborder: errors[0],
-                    }"
-                    class="form-control"
-                    placeholder="Phone number"
-                    v-model="formData.phone"
-                  />
-                </div>
-                <small v-if="errors.length" class="error">
-                  {{ errors[0] }}
-                </small>
-              </ValidationProvider>
-
-              <ValidationProvider
-                vid="password"
-                ref="password"
-                rules="required"
-                v-slot="{ errors }"
-                tag="div"
-                class="mb-3"
-              >
-                <div class="form-input mb-1">
-                  <input
-                    type="password"
-                    name="Password"
-                    ref="passwordOneInput"
-                    :class="{
-                      'form-control': true,
-                      redborder: errors[0],
-                    }"
-                    class="form-control"
-                    placeholder="Password"
-                    v-model="formData.password"
-                  />
-                  <span @click="toggleShowOne"> </span>
-                </div>
-                <small v-if="errors.length" class="error">
-                  {{ errors[0] }}
-                </small>
-              </ValidationProvider>
-
-              <ValidationProvider
-                vid="password2"
-                rules="required|confirmed:password"
-                v-slot="{ errors }"
-                tag="div"
-                class="mb-4"
-              >
-                <div class="form-input mb-1">
-                  <input
-                    type="password"
-                    name="Confirm Password"
-                    ref="passwordTwoInput"
-                    :class="{
-                      'form-control': true,
-                      redborder: errors[0],
-                    }"
-                    class="form-control"
-                    placeholder="Retype password"
-                    v-model="formData.password2"
-                  />
-                  <span @click="toggleShowTwo"> </span>
-                </div>
-                <small v-if="errors.length" class="error">
-                  {{
-                    errors.length && formData.password !== formData.password2
-                      ? "Password not matched"
-                      : errors[0]
-                  }}
-                </small>
-              </ValidationProvider>
-
-              <div class="form-check d-flex">
-                <input
-                  type="checkbox"
-                  class="form-check-input me-2"
-                  v-model="formData.is_agreed"
-                />
-                <label class="form-check-label text-white">
-                  I agree to the
-                  <a
-                    href="/common/terms-and-conditions"
-                    target="_blank"
-                    class="text-active"
-                  >
-                    Terms of Service
-                  </a>
-                  and
-                  <a
-                    href="/common/privacy-policy"
-                    target="_blank"
-                    class="text-active"
-                  >
-                    Privacy Policy
-                  </a>
-                </label>
-              </div>
-
-              <div class="d-grid">
-                <button
-                  type="submit"
-                  :disabled="invalid"
-                  class="btn btn-primary btn-block py-2 fw-semibold"
-                >
-                  Create Account
-                </button>
-              </div>
-            </ValidationObserver>
-
-            <div class="mt-4 text-center">
-              <p class="text-white">
-                Already have an account?
-                <router-link to="/signin" class="text-active fw-semibold">
-                  Sign In
-                </router-link>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
   </div>
 </template>
 
@@ -980,7 +732,7 @@ import { SIGNUP, FETCH_COUNTRY } from "../utils/store/action.names";
 @Component({
   name: "Signup",
   components: {},
-  layout: "page-layout",
+  layout: "auth-layout",
 })
 export default class Signup extends Vue {
   @Action(namespaced(NS_COMMON, FETCH_COUNTRY)) fetchCountry;
@@ -1002,14 +754,6 @@ export default class Signup extends Vue {
 
   showPasswordOne = false;
   showPasswordTwo = false;
-
-  loginWithGoogle() {
-    window.location = `https://accounts.google.com/o/oauth2/auth/oauthchooseaccount?protocol=oauth2&response_type=code&access_type=offline&client_id=559204491251-9rdnbjf2n27ks6u5klvef778icg1j4rm.apps.googleusercontent.com&redirect_uri=https://flagedu.com/socialauth/google&scope=openid%20profile%20email%20email%20profile&code_challenge_method&prompt=select_account&service=lso&o2v=1&flowName=GeneralOAuthFlow`;
-  }
-
-  loginWithFacebook() {
-    window.location = `https://www.facebook.com/v16.0/dialog/oauth?client_id=1419617315245410&redirect_uri=https://flagedu.com/socialauth/facebook`;
-  }
 
   toggleShowOne() {
     this.showPasswordOne = !this.showPasswordOne;
@@ -1040,6 +784,13 @@ export default class Signup extends Vue {
     const userData = { ...this.formData };
     delete userData["password2"];
     userData["user_ip"] = this.user_ip;
+
+    if (this.$route.query && this.$route.query.referrer) {
+      userData["affiliate_referrer"] = this.$route.query.referrer;
+    } else {
+      userData["affiliate_referrer"] = null;
+    }
+
     this.signup(userData)
       .then((data) => {
         this.loading = false;
