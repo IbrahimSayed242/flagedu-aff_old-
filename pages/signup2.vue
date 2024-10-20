@@ -1,11 +1,11 @@
 <template>
-  <div class="" dir="rtl" style="background-color: aliceblue">
+  <div class="position-relative" dir="rtl" style="background-color: aliceblue">
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
     />
     <nav
-      class="navbar navbar-expand-md navbar-dark"
+      class="navbar navbar-expand-md navbar-dark position-relative z-index-3"
       style="background-color: #2b4350"
     >
       <div class="container-fluid">
@@ -65,19 +65,65 @@
 
     <!-- .hero start -->
 
-    <section class="py-5 lg-my-5">
-      <div class="container lg-my-5 py-5">
+    <div class="position-absolute z-0 top-10 -right-20">
+      <svg
+        class="absolute right-0 bottom-0 -z-10"
+        width="385"
+        height="539"
+        viewBox="0 0 385 539"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M56 538.602C81.3333 435.923 192.8 230.774 436 231.604"
+          stroke="#057e7e5d"
+          stroke-opacity="0.7"
+          stroke-width="2"
+        />
+        <path
+          d="M45 492.602C70.3333 389.923 181.8 184.774 425 185.604"
+          stroke="#057e7e5d"
+          stroke-opacity="0.7"
+          stroke-width="2"
+        />
+        <path
+          d="M34 446.602C59.3333 343.923 170.8 138.774 414 139.604"
+          stroke="#057e7e5d"
+          stroke-opacity="0.7"
+          stroke-width="2"
+        />
+        <path
+          d="M23 400.602C48.3333 297.923 159.8 92.7743 403 93.6041"
+          stroke="#057e7e5d"
+          stroke-opacity="0.7"
+          stroke-width="2"
+        />
+        <path
+          d="M12 354.602C37.3333 251.923 148.8 46.7743 392 47.6041"
+          stroke="#057e7e5d"
+          stroke-opacity="0.7"
+          stroke-width="2"
+        />
+        <path
+          d="M1 308.602C26.3333 205.923 137.8 0.774349 381 1.60407"
+          stroke="#057e7e5d"
+          stroke-opacity="0.7"
+          stroke-width="2"
+        />
+      </svg>
+    </div>
+
+    <section class="pt-5 lg-my-5 position-relative">
+      <div class="lg-my-5 pt-5 z-10">
         <div class="row align-items-center">
-          <div class="col-lg-6 my-2">
-            <div class="hero-content text-sm-center">
+          <div class="col-lg-5 my-2">
+            <div class="hero-content text-sm-center" style="margin-right: 20px">
               <h1 class="mb-3 fw-bolder display-4 text-right text-sm-center">
                 كن شريكاً <span class="text-flagedu"> لفلاجيدو </span> وحقق
                 أهدافك
               </h1>
 
-              <p
-                class="text-secondary mb-4 fs-6 pe-md-5 me-md-5 text-sm-center"
-              >
+              <p class="text-flagedu mb-4 fs-6 text-sm-center">
                 احصل على نتائج تسويقية أفضل مع جمهورك المناسب
               </p>
 
@@ -101,14 +147,90 @@
               </a>
             </div>
           </div>
-          <div class="col-lg-6 my-2">
-            <figure class="hero-img-wrap my-2">
+          <div class="col-lg-7">
+            <figure class=" ">
               <img
-                src="https://s6.imgcdn.dev/V2rx8.webp"
+                src="https://res.cloudinary.com/dt9k74vof/image/upload/v1729421338/copy/flagedu%20hero.webp"
                 class="img-fluid"
                 alt=""
               />
             </figure>
+          </div>
+        </div>
+        <div>
+          <h2 class="text-center m-3">
+            احصل على العديد من الميزات التي لن لامثيل لها
+
+            <span class="text-center text-flagedu text-sm-center"
+              >بأشتراك معنا</span
+            >
+          </h2>
+          <div
+            class="row d-flex justify-content-center text-flagedu rounded-3 mt-3 py-3 align-items-center"
+          >
+            <div class="flip-card col-lg-3 col-sm-6 m-2 p-4">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <h3>دعم مخصص</h3>
+                  <img
+                    class="col-6"
+                    src="https://res.cloudinary.com/dmjbdeydm/image/upload/v1729347886/flagedu_wblyin_l282cc.svg"
+                    alt=""
+                  />
+                </div>
+                <div class="flip-card-back">
+                  <h3 class="m-3">الدعم المخصص</h3>
+                  <p class="m-3">
+                    فريقنا ملتزم بنجاحك احصل على الدعم والتوجيه المخصص في كل
+                    خطوة على الطريق.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="flip-card col-lg-3 col-sm-6 m-2 p-4">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <h3>عمولات عالية</h3>
+                  <img
+                    class="col-6"
+                    src="https://res.cloudinary.com/dmjbdeydm/image/upload/v1729347925/undraw_online_wishes_dlmr_cntpa5_1_xemi3m.svg"
+                    alt=""
+                  />
+                </div>
+                <div class="flip-card-back">
+                  <h3 class="m-3">العمولات العالية</h3>
+                  <p class="m-3">
+                    اربح ما يصل إلى100% من العمولات مع كل إحالة ناجحة.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="flip-card col-lg-3 col-sm-6 m-2 p-4">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <h3>موارد حصرية</h3>
+                  <img
+                    class="col-6"
+                    src="https://res.cloudinary.com/dmjbdeydm/image/upload/v1729347949/undraw_instant_support_re_s7un_npv1f2_m1vgpd.svg"
+                    alt="flagedu"
+                  />
+                </div>
+                <div class="flip-card-back">
+                  <h3 class="m-3">موارد حصرية</h3>
+                  <p>تمتع بإمكانية الوصول إلى أحدث الأدوات والمواد التسويقية</p>
+                </div>
+              </div>
+            </div>
+            <div class="text-center">
+              <a
+                href="#form"
+                class="btn mt-5 text-decoration-none fw-semibold mx-3 text-center mx-auto bg-flagedu text-white px-5 py-2 text-center"
+              >
+                اشترك الآن</a
+              >
+            </div>
           </div>
         </div>
       </div>
@@ -186,9 +308,12 @@
         </div>
       </div>
     </div>
+
+    <div class="" style="height: 50px"></div>
+
     <div class="row d-flex justify-content-center m-4">
       <h2 class="text-center text-flagedu display-4 m-3 fw-bolder">
-        اعلن بخطوات بسيطة
+        خطوات تسجيل بسيطة وسهلة
       </h2>
 
       <div
@@ -494,68 +619,211 @@
       </div>
     </div>
 
-    <div class="row d-flex justify-content-center text-flagedu m-5">
-      <h2 class="fw-bold text-center m-3">لماذا تصبح شريكًا مع فلاجيدو؟</h2>
-      <div class="flip-card col-lg-3 col-sm-6 m-2">
-        <div class="flip-card-inner">
-          <div class="flip-card-front">
-            <h3>دعم مخصص</h3>
+    <section class="pt-5 pt-md-7 bf-flagedu-light text-white position-relative">
+      <div class="position-absolute start-0 top-0">
+        <svg
+          width="168"
+          height="213"
+          viewBox="0 0 168 213"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <circle
+            cx="62"
+            cy="106.602"
+            r="106"
+            fill="#DAF3F3"
+            fill-opacity="0.14"
+          />
+        </svg>
+      </div>
+      <div class="position-absolute end-0 bottom-0">
+        <svg
+          width="385"
+          height="539"
+          viewBox="0 0 385 539"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M56 538.602C81.3333 435.923 192.8 230.774 436 231.604"
+            stroke="white"
+            stroke-opacity="0.7"
+            stroke-width="2"
+          />
+          <path
+            d="M45 492.602C70.3333 389.923 181.8 184.774 425 185.604"
+            stroke="white"
+            stroke-opacity="0.7"
+            stroke-width="2"
+          />
+          <path
+            d="M34 446.602C59.3333 343.923 170.8 138.774 414 139.604"
+            stroke="white"
+            stroke-opacity="0.7"
+            stroke-width="2"
+          />
+          <path
+            d="M23 400.602C48.3333 297.923 159.8 92.7743 403 93.6041"
+            stroke="white"
+            stroke-opacity="0.7"
+            stroke-width="2"
+          />
+          <path
+            d="M12 354.602C37.3333 251.923 148.8 46.7743 392 47.6041"
+            stroke="white"
+            stroke-opacity="0.7"
+            stroke-width="2"
+          />
+          <path
+            d="M1 308.602C26.3333 205.923 137.8 0.774349 381 1.60407"
+            stroke="white"
+            stroke-opacity="0.7"
+            stroke-width="2"
+          />
+        </svg>
+      </div>
+      <div class="container position-relative">
+        <div class="row">
+          <div class="col-lg-6 text-center text-lg-start">
+            <h2 class="display-4 fw-bold mb-3 text-center">
+              احسب العمولات الخاصة بك مع كل صفقة ناجحة
+            </h2>
             <img
-              class="col-6"
-              src="https://res.cloudinary.com/dmjbdeydm/image/upload/v1729347886/flagedu_wblyin_l282cc.svg"
+              src="https://cdn.easyfrontend.com/pictures/hero/hero-12.png"
               alt=""
+              class="img-fluid rounded mt-3 mx-auto"
             />
           </div>
-          <div class="flip-card-back">
-            <h3 class="m-3">الدعم المخصص</h3>
-            <p class="m-3">
-              فريقنا ملتزم بنجاحك احصل على الدعم والتوجيه المخصص في كل خطوة على
-              الطريق.
+          <div class="col-lg-6 text-center text-lg-start mb-5 mb-lg-0">
+            <div class="d-flex flex-column justify-content-center h-100">
+              <div>
+                <calc />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="py-5 bg-d">
+      <div class="container">
+        <div class="row text-center mb-5">
+          <div class="col-lg-8 mx-auto">
+            <h2 class="display-4 fw-bold mb-3 text-flagedu">
+              لماذا تنضم لبرنامج الأفلييت؟
+            </h2>
+            <p class="lead text-muted">
+              إليك بعض الأسباب التي تجعل الانضمام لبرنامجنا فرصة لا تفوت:
             </p>
           </div>
         </div>
-      </div>
 
-      <div class="flip-card col-lg-3 col-sm-6 m-2">
-        <div class="flip-card-inner">
-          <div class="flip-card-front">
-            <h3>عمولات عالية</h3>
-            <img
-              class="col-6"
-              src="https://res.cloudinary.com/dmjbdeydm/image/upload/v1729347925/undraw_online_wishes_dlmr_cntpa5_1_xemi3m.svg"
-              alt=""
-            />
+        <div class="row g-4">
+          <!-- ميزة 1 -->
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100 border-0 shadow-sm">
+              <div class="card-body d-flex flex-column">
+                <i
+                  class="bi bi-cash-coin text-flagedu mb-3"
+                  style="font-size: 2rem"
+                ></i>
+                <h3 class="h5 fw-bold mb-2 text-flagedu">دخل غير محدود</h3>
+                <p class="card-text text-muted">
+                  كلما زادت مبيعاتك، زادت أرباحك. لا حدود لما يمكنك كسبه.
+                </p>
+              </div>
+            </div>
           </div>
-          <div class="flip-card-back">
-            <h3 class="m-3">العمولات العالية</h3>
-            <p class="m-3">
-              اربح ما يصل إلى100% من العمولات مع كل إحالة ناجحة.
-            </p>
+
+          <!-- ميزة 2 -->
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100 border-0 shadow-sm">
+              <div class="card-body d-flex flex-column">
+                <i
+                  class="bi bi-graph-up-arrow text-flagedu mb-3"
+                  style="font-size: 2rem"
+                ></i>
+                <h3 class="h5 fw-bold mb-2 text-flagedu">تقارير مفصلة</h3>
+                <p class="card-text text-muted">
+                  سجل شامل لجميع معاملاتك والمبيعات التي قمت بها لتتبع نموك.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- ميزة 3 -->
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100 border-0 shadow-sm">
+              <div class="card-body d-flex flex-column">
+                <i
+                  class="bi bi-headset text-flagedu mb-3"
+                  style="font-size: 2rem"
+                ></i>
+                <h3 class="h5 fw-bold mb-2 text-flagedu">نظام متكامل للدعم</h3>
+                <p class="card-text text-muted">
+                  نحن هنا لمساعدتك في كل خطوة على طريق نجاحك مع دعم فني متميز.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- ميزة 4 -->
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100 border-0 shadow-sm">
+              <div class="card-body d-flex flex-column">
+                <i
+                  class="bi bi-lightning-charge text-flagedu mb-3"
+                  style="font-size: 2rem"
+                ></i>
+                <h3 class="h5 fw-bold mb-2 text-flagedu">
+                  أدوات تسويقية فعالة
+                </h3>
+                <p class="card-text text-muted">
+                  نوفر لك أحدث الأدوات والموارد التسويقية لتعزيز مبيعاتك بسهولة.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- ميزة 5 -->
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100 border-0 shadow-sm">
+              <div class="card-body d-flex flex-column">
+                <i
+                  class="bi bi-calendar-check text-flagedu mb-3"
+                  style="font-size: 2rem"
+                ></i>
+                <h3 class="h5 fw-bold mb-2 text-flagedu">دفعات منتظمة</h3>
+                <p class="card-text text-muted">
+                  استلم أرباحك بانتظام وبطرق دفع متنوعة تناسب احتياجاتك.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- ميزة 6 -->
+          <div class="col-md-6 col-lg-4">
+            <div class="card h-100 border-0 shadow-sm">
+              <div class="card-body d-flex flex-column">
+                <i
+                  class="bi bi-people text-flagedu mb-3"
+                  style="font-size: 2rem"
+                ></i>
+                <h3 class="h5 fw-bold mb-2 text-flagedu">مجتمع نشط</h3>
+                <p class="card-text text-muted">
+                  انضم إلى مجتمع من المسوقين الناجحين لتبادل الخبرات والنصائح.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-
-      <div class="flip-card col-lg-3 col-sm-6 m-2">
-        <div class="flip-card-inner">
-          <div class="flip-card-front">
-            <h3>موارد حصرية</h3>
-            <img
-              class="col-6"
-              src="https://res.cloudinary.com/dmjbdeydm/image/upload/v1729347949/undraw_instant_support_re_s7un_npv1f2_m1vgpd.svg"
-              alt="flagedu"
-            />
-          </div>
-          <div class="flip-card-back">
-            <h3 class="m-3">موارد حصرية</h3>
-            <p>تمتع بإمكانية الوصول إلى أحدث الأدوات والمواد التسويقية</p>
-          </div>
-        </div>
-      </div>
-    </div>
+    </section>
 
     <div
       id="carouselExampleControls"
-      class="carousel slide pb-5 mx-5 my-5"
+      class="carousel slide pb-5 mx-5 mb-5 mt-5"
       data-bs-ride="carousel"
     >
       <div class="carousel-inner bg-d rounded-2">
@@ -593,7 +861,7 @@
           <div class="d-flex flex-column" style="align-items: center">
             <p class="mt-5 fs-3 text-flagedu font-weight-bold">معلنين سابقين</p>
 
-            <div class="text-center col-lg-7 col-md-7 col-sm-10">
+            <div class="text-center col-lg-7 col-md-7 col-sm-10 m-3">
               <p>
                 شركة إنجوت بروكرز Ingot Brokers هو عنوان الموقع الرسمي ومُسمّى
                 العلامة التجارية التابعة للشركة الأم Ingot Global Ltd، التي
@@ -622,7 +890,7 @@
           <div class="d-flex flex-column" style="align-items: center">
             <p class="mt-5 fs-3 text-flagedu font-weight-bold">معلنين سابقين</p>
 
-            <div class="text-center col-lg-7 col-md-7 col-sm-10">
+            <div class="text-center col-lg-7 col-md-7 col-sm-10 m-3">
               <p>
                 شركة evest هي وسيط تداول الأسهم بالإضافة إلى تداول الفوركس عبر
                 الإنترنت، وتداول العقود مقابل الفروقات CFDs.
@@ -649,7 +917,7 @@
           <div class="d-flex flex-column" style="align-items: center">
             <p class="mt-5 fs-3 text-flagedu fw-bold">معلنين سابقين</p>
 
-            <div class="text-center col-lg-7 col-md-7 col-sm-10">
+            <div class="text-center col-lg-7 col-md-7 col-sm-10 m-2">
               <p>
                 MultiBank خبرة طويلة في مجال تزويد خدمات التداول عبر الإنترنت
                 تمتد إلى قرابة 20 عاماً؛ إذ تم تأسيس الشركة وإطلاق خدماتها في
@@ -712,8 +980,6 @@
         </div>
       </div>
     </div>
-
-    <!-- Button trigger modal -->
   </div>
 </template>
 
@@ -728,7 +994,7 @@ import {
 import { namespaced } from "../utils/utils";
 import { NS_USER, NS_COMMON } from "../utils/store/namespace.names";
 import { SIGNUP, FETCH_COUNTRY } from "../utils/store/action.names";
-
+import calc from "../components/calc.vue";
 @Component({
   name: "Signup",
   components: {},
@@ -943,12 +1209,13 @@ img {
 }
 .bg-d {
   background-color: rgba(28, 45, 54, 0.89);
-  color: aliceblue;
+  color: rgb(167, 237, 255);
 }
 .border-x {
   border-style: solid;
   border-color: #1c8b89;
   border-radius: 10px;
+  border-width: 1px;
 }
 
 .bg-f {
@@ -993,9 +1260,10 @@ img {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   border-radius: 15px;
+  padding: 10px;
 }
 .flip-card-front {
-  background-color: #057e7e;
+  background-color: #057e7ebe;
   color: rgb(255, 255, 255);
 }
 
